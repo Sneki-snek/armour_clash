@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-e850-e7dd-b6e5-f6c0" name="Armoured_Clash-Main" battleScribeVersion="2.03" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-e850-e7dd-b6e5-f6c0" name="Armoured_Clash-Main" battleScribeVersion="2.03" revision="2" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Light" id="default-category"/>
     <categoryEntry name="Heavy" id="6aad-4085-608f-dc2f" hidden="false"/>
@@ -345,4 +345,7 @@
   <costTypes>
     <costType name="Points" id="e58e-982d-7630-5342" defaultCostLimit="-1"/>
   </costTypes>
+  <publications>
+    <publication name="sneks" id="9bca-dc9c-555f-6458" hidden="false" publisherUrl="https://github.com/Sneki-snek/armour_clash" publisher="snek"/>
+  </publications>
 </gameSystem>

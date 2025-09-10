@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="3a46-9200-e55a-849b" name="Commonwealth" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="1" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="3a46-9200-e55a-849b" name="Commonwealth" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="2" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Ryadovoy Rifle Platoon" hidden="false" id="7f3a-c5cb-1eed-526d" sortIndex="2">
       <categoryLinks>
@@ -40,7 +40,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="35"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="a645-e3ca-7f80-36d1" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -64,7 +64,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="dce6-12d3-2776-ade6" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -88,7 +88,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="60"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -190,7 +190,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="3b04-e93c-5a55-f0bb" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -214,7 +214,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="210"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="f671-7de4-9c4e-5fbc" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -238,7 +238,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -318,7 +318,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="9869-9660-76e3-182f" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -342,7 +342,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="6392-4756-b91e-5418" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -366,7 +366,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -621,7 +621,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="100"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="0a74-0ddd-13b8-6e21" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -645,7 +645,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="260"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="deb4-5cd2-af2a-2896" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -669,7 +669,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -757,7 +757,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="3f6d-9714-781c-158c" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -781,7 +781,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="210"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="d3fd-337f-13e3-026a" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -805,7 +805,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -891,7 +891,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="5084-f3e0-26da-e91b" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -915,7 +915,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="8fae-7250-2f9a-57a4" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -939,7 +939,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="110"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1027,7 +1027,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="4c2b-b97d-f873-2767" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -1051,7 +1051,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="6ca9-3541-f76c-0a17" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -1075,7 +1075,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1165,7 +1165,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="f588-6f57-0e5c-4f16" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -1189,7 +1189,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="340"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="7d94-d930-00f9-e29b" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -1213,7 +1213,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="220"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1241,7 +1241,7 @@
                 <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">6</characteristic>
                 <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">12</characteristic>
                 <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">18</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Indirect, Move or Fire, Devastating, </characteristic>
+                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Indirect, Move or Fire, Devastating,</characteristic>
               </characteristics>
             </profile>
             <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="c87b-c98a-64ab-2b13">
@@ -1311,7 +1311,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="662d-6532-9df1-b257" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -1335,7 +1335,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="310"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="179f-b4e4-4568-ec10" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -1359,7 +1359,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="205"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1451,7 +1451,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="100"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="5359-98a9-df30-dc68" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -1475,7 +1475,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="260"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="c004-ef47-1faf-9808" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -1499,7 +1499,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1600,7 +1600,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="125"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="5aea-1f59-3937-0d38" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -1624,7 +1624,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="325"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="f4fd-00b5-224f-cdd5" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -1648,7 +1648,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="215"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1753,7 +1753,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="fd28-0957-7d8c-7434" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -1777,7 +1777,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="4a9f-f47b-6644-fa29" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -1801,7 +1801,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1896,7 +1896,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="95"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="9db1-5f5f-cde0-2035" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -1920,7 +1920,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="cfa5-bb34-3ffd-b824" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -1944,7 +1944,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2031,7 +2031,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="4f60-d16e-a8b0-8ee9" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -2055,7 +2055,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="350"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="a5f1-19f8-5299-ccf0" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -2079,7 +2079,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="230"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2158,7 +2158,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="e6ea-a531-e4d3-f5fe" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -2182,7 +2182,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="300"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="7d20-9aca-1305-f8b3" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -2206,7 +2206,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2296,7 +2296,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="455"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2394,7 +2394,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="490"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2481,25 +2481,25 @@
     </forceEntry>
     <forceEntry name="Commonwealth Bardiche auxiliary Battlegroup" id="6da9-8821-9946-ba3a" hidden="false">
       <categoryLinks>
-        <categoryLink name="Commander" hidden="false" id="7816-5b2f-ec06-1226" targetId="058b-06f1-5fc7-3c9a" type="categoryEntry"/>
-        <categoryLink name="Infantry" hidden="false" id="7443-5a77-c575-b599" targetId="92f8-9d17-dd4d-a5ac" type="categoryEntry">
+        <categoryLink name="Commander" hidden="false" id="7816-5b2f-ec06-1226" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Infantry" hidden="false" id="7443-5a77-c575-b599" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
             <constraint type="max" value="5" field="selections" scope="force" shared="true" id="c185-bf88-3168-ba37" includeChildSelections="false"/>
             <constraint type="min" value="1" field="selections" scope="force" shared="true" id="5a69-ed3e-79df-3c06" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Armour" hidden="false" id="bfcc-10be-1d32-9aaf" targetId="2c1d-3a57-3871-f158" type="categoryEntry">
+        <categoryLink name="Armour" hidden="false" id="bfcc-10be-1d32-9aaf" targetId="2c1d-3a57-3871-f158">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="force" shared="true" id="14ed-b23f-e3b9-efa2" includeChildSelections="false"/>
             <constraint type="min" value="1" field="selections" scope="force" shared="true" id="9227-090a-161f-3963" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Cavalry" hidden="false" id="408b-a474-eddd-09a5" targetId="d257-b36f-8e15-2d9b" type="categoryEntry">
+        <categoryLink name="Cavalry" hidden="false" id="408b-a474-eddd-09a5" targetId="d257-b36f-8e15-2d9b">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="0121-529f-dd08-c435" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Field Gun" hidden="false" id="dd2d-992b-9412-89ba" targetId="6e6a-9613-0607-95e1" type="categoryEntry">
+        <categoryLink name="Field Gun" hidden="false" id="dd2d-992b-9412-89ba" targetId="6e6a-9613-0607-95e1">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0b23-00a3-e39e-28a6" includeChildSelections="false"/>
           </constraints>
@@ -2508,25 +2508,25 @@
     </forceEntry>
     <forceEntry name="Commonwealth Jad Auxiliary Battlegroup" id="3813-f906-8fb4-bba5" hidden="false">
       <categoryLinks>
-        <categoryLink name="Commander" hidden="false" id="8eed-604e-d05c-cefe" targetId="058b-06f1-5fc7-3c9a" type="categoryEntry"/>
-        <categoryLink name="Infantry/Armour" hidden="false" id="4280-14b2-bfe0-6119" targetId="796d-5047-ce17-a6ab" type="categoryEntry">
+        <categoryLink name="Commander" hidden="false" id="8eed-604e-d05c-cefe" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Infantry/Armour" hidden="false" id="4280-14b2-bfe0-6119" targetId="796d-5047-ce17-a6ab">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="7fb5-068d-0283-ee69" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Cavalry" hidden="false" id="f7c5-1438-b359-42be" targetId="d257-b36f-8e15-2d9b" type="categoryEntry">
+        <categoryLink name="Cavalry" hidden="false" id="f7c5-1438-b359-42be" targetId="d257-b36f-8e15-2d9b">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="force" shared="true" id="6261-4847-a1b3-2121" includeChildSelections="false"/>
             <constraint type="max" value="3" field="selections" scope="force" shared="true" id="b0e3-4a42-58ea-2513" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Rotorcraft" hidden="false" id="3576-7bd2-ccff-7443" targetId="48db-6837-f5b1-49e2" type="categoryEntry">
+        <categoryLink name="Rotorcraft" hidden="false" id="3576-7bd2-ccff-7443" targetId="48db-6837-f5b1-49e2">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="force" shared="true" id="cf7b-6c8e-e8d9-16d4" includeChildSelections="false"/>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="d0f4-c432-4721-1dec" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Aircraft" hidden="false" id="c579-43cb-5ae7-7adc" targetId="554f-0054-70cc-dc43" type="categoryEntry">
+        <categoryLink name="Aircraft" hidden="false" id="c579-43cb-5ae7-7adc" targetId="554f-0054-70cc-dc43">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0376-a434-070a-f89c" includeChildSelections="false"/>
           </constraints>

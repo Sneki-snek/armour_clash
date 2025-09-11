@@ -135,6 +135,7 @@
         <categoryLink targetId="cf02-f753-6379-2663" id="21cb-a7a8-0db2-67e5" primary="false" name="Imperium"/>
         <categoryLink targetId="92f8-9d17-dd4d-a5ac" id="71f2-4702-5f74-759e" primary="true" name="Infantry"/>
         <categoryLink targetId="9ae0-923c-a4aa-1a7b" id="8457-448b-dddb-fe12" primary="false" name="Teutonic"/>
+        <categoryLink targetId="7326-b219-e807-4fca" id="df56-2ed4-1c41-8fc9" primary="false" name="Teutonic Infantry"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="5af5-3506-65e2-6c3f" noindex="true">
@@ -679,6 +680,7 @@
         <categoryLink targetId="cf02-f753-6379-2663" id="e57a-5d7d-d9cc-35d3" primary="false" name="Imperium"/>
         <categoryLink targetId="92f8-9d17-dd4d-a5ac" id="977e-eac6-970e-c600" primary="true" name="Infantry"/>
         <categoryLink targetId="9ae0-923c-a4aa-1a7b" id="271d-28bd-ce7b-2aa5" primary="false" name="Teutonic"/>
+        <categoryLink targetId="7326-b219-e807-4fca" id="9cf8-51b8-4bb8-184f" primary="false" name="Teutonic Infantry"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="b3c2-ebcf-46fa-2a1e" noindex="true">
@@ -1514,6 +1516,7 @@
         <categoryLink targetId="6e6a-9613-0607-95e1" id="7da4-fc52-0ce7-1dc2" primary="true" name="Field Gun"/>
         <categoryLink targetId="7eaa-f766-9c80-8758" id="825f-95fa-f6b5-b9a6" primary="false" name="Gun Carriage"/>
         <categoryLink targetId="9ae0-923c-a4aa-1a7b" id="e4d8-a2bf-9b4e-1e25" primary="false" name="Teutonic"/>
+        <categoryLink targetId="7426-8755-bba2-a52b" id="72bf-79e5-15d8-9027" primary="false" name="Teutonic Field Gun"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="7afa-049b-d1df-f5a8" noindex="true">
@@ -1790,6 +1793,7 @@
         <categoryLink targetId="6aad-4085-608f-dc2f" id="f20d-0f83-c3c2-63fe" primary="false" name="Heavy"/>
         <categoryLink targetId="2c1d-3a57-3871-f158" id="32b4-e882-6f23-bbdf" primary="true" name="Armour"/>
         <categoryLink targetId="9ae0-923c-a4aa-1a7b" id="a195-bd94-091a-26b7" primary="false" name="Teutonic"/>
+        <categoryLink targetId="37fd-ddb2-d3d5-332b" id="b25c-6672-7e5a-d477" primary="false" name="Teutonic Armor"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="76f3-18a2-02a8-059a" noindex="true">

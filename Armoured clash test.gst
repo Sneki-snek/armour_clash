@@ -54,6 +54,9 @@
     <categoryEntry name="Teutonic Infantry" id="7326-b219-e807-4fca" hidden="false"/>
     <categoryEntry name="Tractor" id="a0a3-b1b7-dee2-c8c6" hidden="false"/>
     <categoryEntry name="Armour/Artillery" id="1a01-9a6d-4d44-aa8e" hidden="false"/>
+    <categoryEntry name="Armour" id="c6c6-d684-5f84-f663" hidden="false">
+      <comment>For Commanders</comment>
+    </categoryEntry>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry type="upgrade" import="false" name="Default Root Entry" hidden="false" id="default-entry">

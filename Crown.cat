@@ -280,6 +280,11 @@
             <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="49f7-b3f5-f33b-afd7" shared="true" includeChildSelections="false"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="e513-34a4-b72e-9f19" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="49f7-b3f5-f33b-afd7" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Royal Engineer Sappers" hidden="false" id="0fd4-7633-64b0-060f" sortIndex="3">
@@ -413,6 +418,13 @@
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="5a79-9d5c-2880-e317" includeChildSelections="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set-primary" value="763f-6d17-4a4b-c0df" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="49f7-b3f5-f33b-afd7" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sharp Rifles" hidden="false" id="977c-25d8-f5c7-4997" sortIndex="4">
       <categoryLinks>
@@ -541,6 +553,13 @@
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="5a65-26c5-7952-f9bc" includeChildSelections="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set-primary" value="763f-6d17-4a4b-c0df" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="49f7-b3f5-f33b-afd7" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Spitfire Rocketeers" hidden="false" id="2a0e-4b09-f56d-3123" sortIndex="5">
       <categoryLinks>
@@ -669,6 +688,13 @@
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="4ac9-45fa-9b75-5d57" includeChildSelections="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set-primary" value="763f-6d17-4a4b-c0df" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="49f7-b3f5-f33b-afd7" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Rifle platoon" hidden="false" id="fea9-6d56-623f-edcd" sortIndex="2">
       <categoryLinks>
@@ -815,6 +841,11 @@
             <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f353-6a14-0887-e50c" shared="true" includeChildSelections="false"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="763f-6d17-4a4b-c0df" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="49f7-b3f5-f33b-afd7" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Black Watch Assault Dragoons" hidden="false" id="45ce-ba22-1c06-cb3a" sortIndex="6">
@@ -958,6 +989,11 @@
         <modifier type="set-primary" value="a1a3-9cbc-d8e8-ee0c" field="category">
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="df41-804b-08d3-4196" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="763f-6d17-4a4b-c0df" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="49f7-b3f5-f33b-afd7" shared="true" includeChildSelections="false"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1114,6 +1150,11 @@
             <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="df41-804b-08d3-4196" shared="true" includeChildSelections="false"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="763f-6d17-4a4b-c0df" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="49f7-b3f5-f33b-afd7" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Horse Guard Cavalry" hidden="false" id="229c-cb18-0df7-bfaf" sortIndex="8">
@@ -1244,6 +1285,11 @@
         <modifier type="set-primary" value="a1a3-9cbc-d8e8-ee0c" field="category">
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="df41-804b-08d3-4196" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="763f-6d17-4a4b-c0df" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="49f7-b3f5-f33b-afd7" shared="true" includeChildSelections="false"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1974,11 +2020,6 @@
             <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="df41-804b-08d3-4196" shared="true" includeChildSelections="false"/>
           </conditions>
         </modifier>
-        <modifier type="set-primary" value="a1a3-9cbc-d8e8-ee0c" field="category">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="df41-804b-08d3-4196" shared="true" includeChildSelections="false"/>
-          </conditions>
-        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Stirling Armoured Transports" hidden="false" id="ec18-2322-a928-89ca" sortIndex="14">
@@ -2259,6 +2300,11 @@
             <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="49f7-b3f5-f33b-afd7" shared="true" includeChildSelections="false"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="e513-34a4-b72e-9f19" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="49f7-b3f5-f33b-afd7" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sovereign Landship" hidden="false" id="c041-4f6b-d778-739f" sortIndex="19">
@@ -2497,6 +2543,11 @@
       </constraints>
       <modifiers>
         <modifier type="set" value="2" field="14f8-2f32-8dfe-7b86">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="49f7-b3f5-f33b-afd7" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="e513-34a4-b72e-9f19" field="category">
           <conditions>
             <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="49f7-b3f5-f33b-afd7" shared="true" includeChildSelections="false"/>
           </conditions>

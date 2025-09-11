@@ -1,16 +1,105 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="4071-b855-7a04-d76d" name="Empire" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="2" revision="1" authorName="Sneki_snek" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
-    <forceEntry name="Empire Faction Battlegroup" id="02e1-b891-584c-0c8e" hidden="false">
+    <forceEntry name="Empire Faction Battlegroup" id="02e1-b891-584c-0c8e" hidden="false" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="eaac-562b-56f7-34c3" targetId="9588-4200-697f-615f"/>
         <categoryLink name="Commander" hidden="false" id="76ca-fe19-0c28-97dc" targetId="058b-06f1-5fc7-3c9a"/>
-        <categoryLink name="Infantry" hidden="false" id="2ea2-a3cf-8473-2225" targetId="92f8-9d17-dd4d-a5ac"/>
-        <categoryLink name="Cavalry" hidden="false" id="a9ab-b9f6-d7dc-da12" targetId="d257-b36f-8e15-2d9b"/>
-        <categoryLink name="Field Gun" hidden="false" id="cfea-cac0-1eeb-6eb4" targetId="6e6a-9613-0607-95e1"/>
-        <categoryLink name="Armour" hidden="false" id="8ba4-8241-ce93-783a" targetId="2c1d-3a57-3871-f158"/>
-        <categoryLink name="Artillery" hidden="false" id="a6a1-14a3-99c5-065e" targetId="3d8a-88d7-d75b-191d"/>
-        <categoryLink name="Aircraft" hidden="false" id="cb19-f17b-8b5c-66c1" targetId="554f-0054-70cc-dc43"/>
+        <categoryLink name="Infantry" hidden="false" id="2ea2-a3cf-8473-2225" targetId="92f8-9d17-dd4d-a5ac">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="force" shared="true" id="6d40-3c0d-dae7-e336" includeChildSelections="false"/>
+            <constraint type="max" value="5" field="selections" scope="force" shared="true" id="a76c-d25c-c1cb-3e35" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Cavalry" hidden="false" id="a9ab-b9f6-d7dc-da12" targetId="d257-b36f-8e15-2d9b">
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="force" shared="true" id="9bad-3003-c381-94a6" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Field Gun" hidden="false" id="cfea-cac0-1eeb-6eb4" targetId="6e6a-9613-0607-95e1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1e06-2126-ab64-3425" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Armour" hidden="false" id="8ba4-8241-ce93-783a" targetId="2c1d-3a57-3871-f158">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="21ec-e9df-fe10-7bb0" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Artillery" hidden="false" id="a6a1-14a3-99c5-065e" targetId="3d8a-88d7-d75b-191d">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="c24a-3146-cd05-307e" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Aircraft" hidden="false" id="cb19-f17b-8b5c-66c1" targetId="554f-0054-70cc-dc43">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6690-93c6-e854-ab2d" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry name="Canglong Guardian Auxiliary Battlegroup" id="bbc0-6a5e-83e1-c5c1" hidden="false" sortIndex="2">
+      <categoryLinks>
+        <categoryLink name="Boons" hidden="false" id="e0f6-58cb-b2f7-3eb4" targetId="9588-4200-697f-615f" type="categoryEntry"/>
+        <categoryLink name="Commander" hidden="false" id="4830-0ce2-0b33-8222" targetId="058b-06f1-5fc7-3c9a" type="categoryEntry"/>
+        <categoryLink name="Infantry" hidden="false" id="9f23-12c9-9f84-df96" targetId="92f8-9d17-dd4d-a5ac" type="categoryEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="1199-0648-cd12-5175" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="force" shared="true" id="4d65-b847-acf4-4754" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Cavalry" hidden="false" id="9fa8-fcae-c917-dfc6" targetId="d257-b36f-8e15-2d9b" type="categoryEntry">
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="force" shared="true" id="65fc-6800-da16-50d3" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Field Gun" hidden="false" id="18b8-2f6d-f9a2-f455" targetId="6e6a-9613-0607-95e1" type="categoryEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1efe-095d-e708-6c5d" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Armour" hidden="false" id="3528-2bc0-b448-b64c" targetId="2c1d-3a57-3871-f158" type="categoryEntry">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="7224-7880-6209-6b32" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Artillery" hidden="false" id="fc52-e95b-5b79-a56a" targetId="3d8a-88d7-d75b-191d" type="categoryEntry">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="c4d2-8241-1d92-8339" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry name="Baihu Strike Formation Auxiliary Battlegroup" id="ffdd-f693-a84d-a1ca" hidden="false" sortIndex="3">
+      <categoryLinks>
+        <categoryLink name="Boons" hidden="false" id="926a-f32e-2758-4cc4" targetId="9588-4200-697f-615f" type="categoryEntry"/>
+        <categoryLink name="Commander" hidden="false" id="29cb-40eb-b67c-2b95" targetId="058b-06f1-5fc7-3c9a" type="categoryEntry"/>
+        <categoryLink name="Infantry" hidden="false" id="a076-cd05-048b-e8c2" targetId="92f8-9d17-dd4d-a5ac" type="categoryEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="22e7-3f72-e4e2-1593" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="force" shared="true" id="3c4b-1084-e99e-9595" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Cavalry/Armour" hidden="false" id="0aad-f202-0a55-fa08" targetId="a1a3-9cbc-d8e8-ee0c" type="categoryEntry">
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="force" shared="true" id="e405-b04a-5d20-49e1" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Aircraft" hidden="false" id="09d5-98c7-1001-5bc0" targetId="554f-0054-70cc-dc43" type="categoryEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0715-2d9d-2e7f-5c4f" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry name="Empire Super-Heavy Auxiliary Battlegroup" id="d650-b893-9963-2882" hidden="false" sortIndex="4">
+      <categoryLinks>
+        <categoryLink name="Boons" hidden="false" id="0ab5-2e94-7f7f-4b8f" targetId="9588-4200-697f-615f" type="categoryEntry"/>
+        <categoryLink name="Behemoth" hidden="false" id="c30a-3f1e-cc29-909c" targetId="26dd-e4ab-0a91-096a" type="categoryEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c36b-3c82-6f02-5892"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -78,7 +167,7 @@ If the unit is unable to end its Charge manoeuvre in contact with the active en
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d234-abb2-8945-39fd" automatic="false"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Tactical Brilliance" hidden="false" id="f721-cf09-644b-68ee" sortIndex="7">
+        <selectionEntry type="upgrade" import="true" name="Tactical Brilliance" hidden="false" id="f721-cf09-644b-68ee" sortIndex="6">
           <costs>
             <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
           </costs>
@@ -96,55 +185,34 @@ If the General begins the second Round with too many cards in their hand, they
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c96-2c45-3f8f-f607" automatic="false"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Grappling With Giants" hidden="false" id="6570-df16-38fb-4ee3" sortIndex="5">
+        <selectionEntry type="upgrade" import="true" name="Tempered Sturginium Blades" hidden="false" id="6570-df16-38fb-4ee3" sortIndex="5">
           <profiles>
-            <profile name="Grappling With Giants" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="380f-e09b-94de-2fd3">
+            <profile name="Tempered Sturginium Blades" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="380f-e09b-94de-2fd3">
               <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, when an Imperium Behemoth from this Force inflicts at least 1 Damage on an enemy Behemoth with a Close Quarters Attack, the General can use this Boon to give the target the Suppressed status.
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, when an Infantry or Cavalry unit in this Force makes a Close Quarters Attack, its General can discard a card from their hand before making the Attack Roll.
 
 
-This rule has no effect if the target model is already Suppressed.</characteristic>
+If they do so, this  Close Quarters Attack is made with the Devastating weapon quality.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="Points" typeId="e58e-982d-7630-5342" value="30"/>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="40"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="308e-041c-37e8-ac1d" automatic="false"/>
           </constraints>
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="force" childId="26dd-e4ab-0a91-096a" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Kriegsspiel" hidden="false" id="9eb6-6111-e892-b95e" sortIndex="6">
+        <selectionEntry type="upgrade" import="true" name="Enhanced Alchemy" hidden="false" id="9eb6-6111-e892-b95e" sortIndex="7">
           <profiles>
-            <profile name="Kriegsspiel" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="b0a5-49b3-782f-4867">
+            <profile name="Enhanced Alchemy" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="b0a5-49b3-782f-4867">
               <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, the General can issue this Special Command to a unit within 6” of a friendly unit that has just completed its Activation.
-
-
-If the Command is successfully issued, the unit immediately Activates.
-
-
-Units that have the Activated status cannot be issued this Special Command.
-
-
-
-
-Note: This Command cannot be issued if more than one unit has already been Activated this turn - for example, if two Coordinated units have been simultaneously Activated.
-
-
-In addition, if the target is a Coordinated unit, it does not count as Coordinated during this Activation.</characteristic>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Clash, at the start of a Round, the General can declare that they will use this Boon. Until the end of the Round, the effective range (X”) of any Obfuscating and Corrosive Fumes special rules belonging to their units is increased by 2”. </characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="Points" typeId="e58e-982d-7630-5342" value="35"/>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa26-5727-b6ba-9df0" automatic="false"/>
@@ -152,46 +220,59 @@ In addition, if the target is a Coordinated unit, it does not count as Coordina
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Battlegroup Bonus:" hidden="false" id="02ca-347c-d9ee-2c40" sortIndex="1">
           <profiles>
-            <profile name="Sturm Und Drang (Command)" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="51e2-5046-9f96-6771">
+            <profile name="The Celestian Guards (Command)" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="51e2-5046-9f96-6771">
               <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">When a friendly Imperium unit makes an attack with the Arc weapon quality, this Battlegroup’s General can issue a Special Command to the unit before making the Attack Roll.
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This Battlegroup’s General can issue this Special Command to an Empire unit immediately before making a Discipline Test for it.
 
 
-If successfully issued, increase the Attack Pool of this attack by 2.</characteristic>
+If the Command is successfully issued, the unit gains a +2 Discipline Bonus for the test.</characteristic>
               </characteristics>
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="028c-27e1-2161-cbda" shared="true" includeChildSelections="false"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="bbc0-6a5e-83e1-c5c1" shared="true" includeChildSelections="false"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </profile>
-            <profile name="The Wild Hunt (Command)" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="a0e5-3bea-f416-c74d">
+            <profile name="The Swooping Crane (Command)" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="a0e5-3bea-f416-c74d">
               <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This Battlegroup’s General can issue this Special Command to an Imperium Infantry or Cavalry unit at the start of its Activation.
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This Battlegroup’s General can issue this Special Command to an Empire unit at the start of its Movement Step.
 
 
-If the command is successfully issued, the unit increases its Speed by 2” when it makes a Charge manoeuvre and increases its Attack Pool by 2 during the resulting Close Quarters Combat.</characteristic>
+If the Command is successfully issued, the unit increases its Speed by 2” during this step.</characteristic>
               </characteristics>
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="045f-d553-19bd-4484" shared="true" includeChildSelections="false"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="ffdd-f693-a84d-a1ca" shared="true" includeChildSelections="false"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </profile>
-            <profile name="Company Of Iron" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="6f41-43ec-01f9-bb2d">
+            <profile name="For The Empire!" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="6f41-43ec-01f9-bb2d">
               <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">When a Discipline Test is made for an Imperium unit in this Force, it gains a +1 Discipline modifier for each other friendly Imperium unit within 3” of it.
-
-Do not count units that are Suppressed or Embarked on Transport units. </characteristic>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">When Checking Visibility for a Ranged Attack made by an Empire unit, this Battlegroup’s General can discard a Command &amp; Conquest Card from their hand to ignore a single friendly Empire unit.</characteristic>
               </characteristics>
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="5dab-8315-fb2f-c918" shared="true" includeChildSelections="false"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="02e1-b891-584c-0c8e" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+            <profile name="None" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="73a4-f45c-c027-073d">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Unlike most Battlegroups, the Empire Super-Heavy Auxiliary Battlegroup does not have a Commander, or a Commander Bonus.
+
+
+This is intentional!</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="d650-b893-9963-2882" shared="true" includeChildSelections="false"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -202,19 +283,24 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8baf-a893-0215-a8a2"/>
           </constraints>
           <modifiers>
-            <modifier type="append" value="Sturm Und Drang" field="name">
+            <modifier type="append" value="The Celestian Guards" field="name">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="028c-27e1-2161-cbda" shared="true" includeChildSelections="false"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="bbc0-6a5e-83e1-c5c1" shared="true" includeChildSelections="false"/>
               </conditions>
             </modifier>
-            <modifier type="append" value="The Wild Hunt" field="name">
+            <modifier type="append" value="The Swooping Crane" field="name">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="045f-d553-19bd-4484" shared="true" includeChildSelections="false"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ffdd-f693-a84d-a1ca" shared="true" includeChildSelections="false"/>
               </conditions>
             </modifier>
-            <modifier type="append" value="Company Of Iron" field="name">
+            <modifier type="append" value="For The Empire!" field="name">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5dab-8315-fb2f-c918" shared="true" includeChildSelections="false"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="02e1-b891-584c-0c8e" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="None" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d650-b893-9963-2882" shared="true" includeChildSelections="false"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -262,7 +348,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="0487-66c0-dfca-7387" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -286,7 +372,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="7083-0abe-d96e-0c88" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -310,7 +396,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -389,7 +475,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="35"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="c26b-84f5-78f7-98e6" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -413,7 +499,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="cfd2-7ebd-f975-7ab6" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -437,7 +523,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="60"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -478,6 +564,18 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="38d0-08d5-96bd-0c43" includeChildSelections="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="38d0-08d5-96bd-0c43">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="bbc0-6a5e-83e1-c5c1" shared="true" includeChildSelections="false"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="02e1-b891-584c-0c8e" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="false" name="Green Banner Flame Teams" hidden="false" id="a4c8-9435-211c-8d6b" sortIndex="4">
       <categoryLinks>
@@ -516,7 +614,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="35"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="9007-7291-e837-161e" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -540,7 +638,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="9334-41b7-af1a-9d86" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -564,7 +662,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="60"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -643,7 +741,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="35"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="40be-babe-4a84-622b" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -667,7 +765,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="d046-2e9f-d8ee-b75c" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -691,7 +789,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="60"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -788,7 +886,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="4cc4-5495-185b-c335" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -812,7 +910,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="115"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="9350-4cff-1008-ddc4" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -836,7 +934,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -886,6 +984,13 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1a59-57f5-bc20-55e7" includeChildSelections="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="1a59-57f5-bc20-55e7">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ffdd-f693-a84d-a1ca" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="false" name="Jianhuren Terracotta Automata" hidden="false" id="3a2d-3069-6d18-f90e" sortIndex="7">
       <categoryLinks>
@@ -924,7 +1029,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="6922-d3f6-2aa1-f3cc" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -948,7 +1053,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="7e29-1dd3-dbe1-1ce3" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -972,7 +1077,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1010,6 +1115,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
         <categoryLink targetId="4ac3-36d9-e25e-4ba3" id="031e-dfb5-a206-7853" primary="false" name="Empire"/>
         <categoryLink targetId="default-category" id="5516-c792-050c-1628" primary="false" name="Light"/>
         <categoryLink targetId="d257-b36f-8e15-2d9b" id="72cc-6734-477d-1a8d" primary="true" name="Cavalry"/>
+        <categoryLink targetId="a1a3-9cbc-d8e8-ee0c" id="c19f-ca4e-e20b-0f9b" primary="false" name="Cavalry/Armour"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="e510-279d-6ed4-94af" noindex="true">
@@ -1042,7 +1148,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="d794-1616-447d-e84a" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -1066,7 +1172,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="195"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="2b0d-64a2-e7bf-93cd" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -1090,7 +1196,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="130"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1140,12 +1246,25 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="996f-740d-ee9b-313d" includeChildSelections="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="996f-740d-ee9b-313d">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ffdd-f693-a84d-a1ca" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" value="a1a3-9cbc-d8e8-ee0c" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ffdd-f693-a84d-a1ca" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="false" name="Tanshe Artillery Chariots" hidden="false" id="f784-351a-83b8-526d" sortIndex="9">
       <categoryLinks>
         <categoryLink targetId="4ac3-36d9-e25e-4ba3" id="e31f-f9c9-a3fe-72ee" primary="false" name="Empire"/>
         <categoryLink targetId="default-category" id="47a6-cd51-e78d-e1ac" primary="false" name="Light"/>
         <categoryLink targetId="d257-b36f-8e15-2d9b" id="eb64-e6fb-acad-68f3" primary="true" name="Cavalry"/>
+        <categoryLink targetId="a1a3-9cbc-d8e8-ee0c" id="ca0b-4205-83f9-3dbc" primary="false" name="Cavalry/Armour"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="975b-1dd7-2737-8d1e" noindex="true">
@@ -1178,7 +1297,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="70"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="51e7-2c94-a958-2c41" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -1202,7 +1321,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="180"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="4deb-1152-4de8-b9e1" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -1226,7 +1345,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1276,12 +1395,20 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a8bf-d097-1f8b-100b" includeChildSelections="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set-primary" value="a1a3-9cbc-d8e8-ee0c" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ffdd-f693-a84d-a1ca" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="false" name="Biao Flak Launchers" hidden="false" id="66d9-00f5-ae4a-d39e" sortIndex="10">
       <categoryLinks>
         <categoryLink targetId="4ac3-36d9-e25e-4ba3" id="9d8d-7358-109c-0e85" primary="false" name="Empire"/>
         <categoryLink targetId="default-category" id="a6c3-67b5-1cc5-b832" primary="false" name="Light"/>
         <categoryLink targetId="d257-b36f-8e15-2d9b" id="2a50-16e4-bc45-2937" primary="true" name="Cavalry"/>
+        <categoryLink targetId="a1a3-9cbc-d8e8-ee0c" id="e971-6c85-3b80-bc73" primary="false" name="Cavalry/Armour"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="c326-bd29-19c4-9512" noindex="true">
@@ -1314,7 +1441,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="a95b-73ea-68c3-2a04" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -1338,7 +1465,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="624d-c94c-a242-29b0" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -1362,7 +1489,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="110"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1412,12 +1539,20 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a9e8-c8cb-4aec-334a" includeChildSelections="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set-primary" value="a1a3-9cbc-d8e8-ee0c" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ffdd-f693-a84d-a1ca" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="false" name="Tongshi Lion Automata" hidden="false" id="c0e5-cc79-432d-e834" sortIndex="11">
       <categoryLinks>
         <categoryLink targetId="4ac3-36d9-e25e-4ba3" id="9a1b-05c6-7a7e-1f66" primary="false" name="Empire"/>
         <categoryLink targetId="d257-b36f-8e15-2d9b" id="3b1d-b485-325c-ada2" primary="true" name="Cavalry"/>
         <categoryLink targetId="6aad-4085-608f-dc2f" id="58c7-d5cb-2196-c6de" primary="false" name="Heavy"/>
+        <categoryLink targetId="a1a3-9cbc-d8e8-ee0c" id="b354-e39b-a9a7-0042" primary="false" name="Cavalry/Armour"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="bc11-19c3-2b19-4bfc" noindex="true">
@@ -1474,7 +1609,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="235"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="1bcd-1211-1b3c-a3fc" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -1498,7 +1633,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="155"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1539,12 +1674,20 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f0e9-1df8-3d3e-5b81" includeChildSelections="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set-primary" value="a1a3-9cbc-d8e8-ee0c" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ffdd-f693-a84d-a1ca" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="false" name="Ruishi Lion Automata" hidden="false" id="8f7d-bdde-b457-11d6" sortIndex="12">
       <categoryLinks>
         <categoryLink targetId="4ac3-36d9-e25e-4ba3" id="bf51-0338-e9e9-befb" primary="false" name="Empire"/>
         <categoryLink targetId="d257-b36f-8e15-2d9b" id="3262-5488-f6ef-f38c" primary="true" name="Cavalry"/>
         <categoryLink targetId="6aad-4085-608f-dc2f" id="11d1-594c-4b2a-2c3d" primary="false" name="Heavy"/>
+        <categoryLink targetId="a1a3-9cbc-d8e8-ee0c" id="c136-90b6-8e65-2432" primary="false" name="Cavalry/Armour"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="fc1c-ab27-2281-c7ce" noindex="true">
@@ -1577,7 +1720,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="e7b8-ff0b-be6c-0add" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -1601,7 +1744,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="210"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="b3bf-95c2-da7f-cc8a" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -1625,7 +1768,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1675,6 +1818,13 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="4167-64fb-d2e0-dd7a" includeChildSelections="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set-primary" value="a1a3-9cbc-d8e8-ee0c" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ffdd-f693-a84d-a1ca" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="false" name="Green Banner Jezzail Teams" hidden="false" id="f478-6e97-1b38-4f97" sortIndex="13">
       <categoryLinks>
@@ -1713,7 +1863,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="1b75-a440-1fe6-ca94" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -1737,7 +1887,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="210"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="356b-b9b5-db64-e6d4" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -1761,7 +1911,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="135"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1817,6 +1967,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
         <categoryLink targetId="4ac3-36d9-e25e-4ba3" id="829b-1f5b-de37-ff15" primary="false" name="Empire"/>
         <categoryLink targetId="6aad-4085-608f-dc2f" id="15cd-79bd-7e12-d7fb" primary="false" name="Heavy"/>
         <categoryLink targetId="2c1d-3a57-3871-f158" id="e031-4e74-809f-5078" primary="true" name="Armour"/>
+        <categoryLink targetId="a1a3-9cbc-d8e8-ee0c" id="f661-e684-14b6-49dd" primary="false" name="Cavalry/Armour"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="5681-2e00-ecfe-6e5d" noindex="true">
@@ -1849,7 +2000,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="110"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="ae9b-3a7d-71f5-ec5d" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -1873,7 +2024,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="285"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="396f-602d-8903-a8df" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -1897,7 +2048,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="190"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -1947,12 +2098,30 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3d6e-2ca6-43c3-eb66" includeChildSelections="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="3d6e-2ca6-43c3-eb66">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ffdd-f693-a84d-a1ca" shared="true" includeChildSelections="false"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="02e1-b891-584c-0c8e" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set-primary" value="a1a3-9cbc-d8e8-ee0c" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ffdd-f693-a84d-a1ca" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="false" name="Yan Shou Tanks" hidden="false" id="7e17-d516-3506-2986" sortIndex="15">
       <categoryLinks>
         <categoryLink targetId="4ac3-36d9-e25e-4ba3" id="5c70-4753-2154-8b2b" primary="false" name="Empire"/>
         <categoryLink targetId="6aad-4085-608f-dc2f" id="06a1-965b-2d56-a9f9" primary="false" name="Heavy"/>
         <categoryLink targetId="2c1d-3a57-3871-f158" id="1b0f-1b18-5130-c413" primary="true" name="Armour"/>
+        <categoryLink targetId="a1a3-9cbc-d8e8-ee0c" id="9654-907c-d56f-f385" primary="false" name="Cavalry/Armour"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="3a86-d373-35f0-d2ff" noindex="true">
@@ -1985,7 +2154,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="100"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="809c-cfc5-fb72-6390" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -2009,7 +2178,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="260"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="6d18-f7d1-d1ed-68b4" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -2033,7 +2202,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2083,6 +2252,13 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e2ca-3483-b396-19b5" includeChildSelections="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set-primary" value="a1a3-9cbc-d8e8-ee0c" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ffdd-f693-a84d-a1ca" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="false" name="Fengbao Heavy Launchers" hidden="false" id="dcb8-d7aa-e2db-200f" sortIndex="16">
       <categoryLinks>
@@ -2121,7 +2297,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="120"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="28b5-c44e-6238-6022" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -2145,7 +2321,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="260"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="0209-80dd-4332-16d6" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -2169,7 +2345,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="205"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2257,7 +2433,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="110"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="e0cc-7177-1c65-ec68" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -2281,7 +2457,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="285"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="e97f-7c66-dd1e-f4eb" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -2305,7 +2481,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2355,6 +2531,13 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b855-8e3f-29ea-790a" includeChildSelections="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="b855-8e3f-29ea-790a">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="bbc0-6a5e-83e1-c5c1" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="false" name="Doksuri Fighter Squadron" hidden="false" id="7167-2b49-a3a7-d740" sortIndex="18">
       <categoryLinks>
@@ -2393,7 +2576,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="100"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="7038-c06e-8187-43de" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
@@ -2417,7 +2600,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="260"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="a2fa-8e38-0edb-7ce2" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
@@ -2441,7 +2624,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="170"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2530,7 +2713,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="495"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2589,19 +2772,26 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="eb40-0863-c9f5-732e" includeChildSelections="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set-primary" value="26dd-e4ab-0a91-096a" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d650-b893-9963-2882" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="false" name="Laoshan Landship" hidden="false" id="1eac-9cfb-98e1-13a6" sortIndex="20">
       <categoryLinks>
         <categoryLink targetId="4ac3-36d9-e25e-4ba3" id="c3b7-5a12-f38f-81b5" primary="false" name="Empire"/>
-        <categoryLink targetId="2c1d-3a57-3871-f158" id="7385-958c-b0b4-5610" primary="true" name="Armour"/>
         <categoryLink targetId="6aad-4085-608f-dc2f" id="1872-f909-cbdc-5cbe" primary="false" name="Heavy"/>
         <categoryLink targetId="26dd-e4ab-0a91-096a" id="2068-9d80-b21e-313e" primary="false" name="Behemoth"/>
-        <categoryLink targetId="058b-06f1-5fc7-3c9a" id="8e3c-5821-1e05-d10a" primary="false" name="Commander"/>
+        <categoryLink targetId="058b-06f1-5fc7-3c9a" id="8e3c-5821-1e05-d10a" primary="true" name="Commander"/>
+        <categoryLink targetId="c6c6-d684-5f84-f663" id="38e2-1bbf-24f4-2db5" primary="false" name="Armour"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="176e-fad3-84dc-fb41" noindex="true">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out Attack (3), Corrosive Fumes (5”), Large, Obfuscating (5”), Ponderous, Slow, Spectacular Demise (10), Sponsons (3)</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out Attack (4), Chain of Command (12”), Corrosive Fumes (5”), Large, Obfuscating (5”), Ponderous, Slow, Spectacular Demise (8), Sponsons (3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2629,7 +2819,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="510"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2688,6 +2878,13 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2624-b40c-1598-1c93" includeChildSelections="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set-primary" value="26dd-e4ab-0a91-096a" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d650-b893-9963-2882" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </selectionEntries>
   <catalogueLinks>

@@ -2651,7 +2651,7 @@ Additionally, the unit does not lose the On Lookout status if it makes a free Ad
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="96d6-3e10-1ddc-4b77" targetId="9588-4200-697f-615f"/>
         <categoryLink name="Commander" hidden="false" id="39d3-d6de-a3fc-e7fd" targetId="058b-06f1-5fc7-3c9a"/>
-        <categoryLink name="Infantry/Cavalry" hidden="false" id="660c-cfd8-f956-abd4" targetId="763f-6d17-4a4b-c0df" type="categoryEntry">
+        <categoryLink name="Infantry/Cavalry" hidden="false" id="eabd-0b63-5bf9-e6c9" targetId="763f-6d17-4a4b-c0df" type="categoryEntry">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="force" shared="true" id="ee75-430f-0988-723a" includeChildSelections="false"/>
             <constraint type="max" value="6" field="selections" scope="force" shared="true" id="9fed-e9e1-30aa-eed5" includeChildSelections="false"/>
@@ -2711,7 +2711,7 @@ Additionally, the unit does not lose the On Lookout status if it makes a free Ad
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="5268-8c9d-746f-3ae5" targetId="9588-4200-697f-615f"/>
         <categoryLink name="Commander" hidden="false" id="8eed-604e-d05c-cefe" targetId="058b-06f1-5fc7-3c9a"/>
-        <categoryLink name="Infantry/Armour" hidden="false" id="4280-14b2-bfe0-6119" targetId="796d-5047-ce17-a6ab">
+        <categoryLink name="Infantry/Armour" hidden="false" id="bd6b-951b-9c66-4a4c" targetId="796d-5047-ce17-a6ab" type="categoryEntry">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="7fb5-068d-0283-ee69" includeChildSelections="false"/>
           </constraints>

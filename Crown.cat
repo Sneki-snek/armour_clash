@@ -2868,7 +2868,7 @@ This is intentional!</characteristic>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5fe0-19c4-43fd-9219"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Cavalry/Armour" hidden="false" id="0897-5479-0b9b-51ce" targetId="a1a3-9cbc-d8e8-ee0c">
+        <categoryLink name="Cavalry/Armour" hidden="false" id="4835-7c29-82c8-0e48" targetId="a1a3-9cbc-d8e8-ee0c" type="categoryEntry">
           <constraints>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="84f2-dfe0-6d21-4965"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a8ed-99ae-8ae3-b58a"/>
@@ -2892,13 +2892,13 @@ This is intentional!</characteristic>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="1f72-ae03-7b58-f433"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Field Guns/Artillery" hidden="false" id="87cf-b273-25be-2304" targetId="e513-34a4-b72e-9f19">
+        <categoryLink name="Field Guns/Artillery" hidden="false" id="0756-abde-1488-14b3" targetId="e513-34a4-b72e-9f19" type="categoryEntry">
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0507-d154-a93c-c728"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fc4b-2eaa-a378-6606"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0507-d154-a93c-c728"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Infantry/Cavalry" hidden="false" id="8f59-6df0-121c-f055" targetId="763f-6d17-4a4b-c0df">
+        <categoryLink name="Infantry/Cavalry" hidden="false" id="e7ea-7ffc-64ba-f50a" targetId="763f-6d17-4a4b-c0df" type="categoryEntry">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="931b-9965-bb40-e148"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9514-30d9-9b67-4248"/>

@@ -94,7 +94,6 @@
     </forceEntry>
     <forceEntry name="Empire Super-Heavy Auxiliary Battlegroup" id="d650-b893-9963-2882" hidden="false" sortIndex="4">
       <categoryLinks>
-        <categoryLink name="Boons" hidden="false" id="0ab5-2e94-7f7f-4b8f" targetId="9588-4200-697f-615f" type="categoryEntry"/>
         <categoryLink name="Behemoth" hidden="false" id="c30a-3f1e-cc29-909c" targetId="26dd-e4ab-0a91-096a" type="categoryEntry">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c36b-3c82-6f02-5892"/>
@@ -2773,9 +2772,9 @@ This is intentional!</characteristic>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="eb40-0863-c9f5-732e" includeChildSelections="true"/>
       </constraints>
       <modifiers>
-        <modifier type="set-primary" value="26dd-e4ab-0a91-096a" field="category">
+        <modifier type="set-primary" value="a1a3-9cbc-d8e8-ee0c" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d650-b893-9963-2882" shared="true" includeChildSelections="false"/>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ffdd-f693-a84d-a1ca" shared="true" includeChildSelections="false"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2879,9 +2878,9 @@ This is intentional!</characteristic>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2624-b40c-1598-1c93" includeChildSelections="true"/>
       </constraints>
       <modifiers>
-        <modifier type="set-primary" value="26dd-e4ab-0a91-096a" field="category">
+        <modifier type="set-primary" value="a1a3-9cbc-d8e8-ee0c" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d650-b893-9963-2882" shared="true" includeChildSelections="false"/>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ffdd-f693-a84d-a1ca" shared="true" includeChildSelections="false"/>
           </conditions>
         </modifier>
       </modifiers>

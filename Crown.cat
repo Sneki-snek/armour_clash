@@ -2351,6 +2351,13 @@
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2bfe-581b-f2e3-097a" includeChildSelections="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set-primary" value="26dd-e4ab-0a91-096a" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a809-8976-9c8a-3a13" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Mordred Heavy Artillery" hidden="false" id="6c21-350e-4ac8-99f8" sortIndex="16">
       <categoryLinks>
@@ -2594,11 +2601,229 @@ Slow to Fire, Torrent</characteristic>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="5882-0160-8ccd-e765" includeChildSelections="true"/>
       </constraints>
+      <modifiers>
+        <modifier type="set-primary" value="26dd-e4ab-0a91-096a" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a809-8976-9c8a-3a13" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Boons and bonuses" hidden="false" id="ea85-8706-fbf8-32c6" sortIndex="0">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Forlorn Hope" hidden="false" id="85e3-0e67-c8d8-3832" sortIndex="2">
+          <profiles>
+            <profile name="Forlorn Hope" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="3562-2eed-2eec-4f66">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">A single unit in the General’s Force that has been deployed at the start of the Clash gains the Vanguard (10”) special rule.
+
+
+A unit that already has the Vanguard (X”) special rule uses the highest (X) value of the two available.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="15"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bd0-21d7-f152-b6d3" automatic="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Ready For Anything" hidden="false" id="16df-9ca4-8194-fddf" sortIndex="4">
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="20"/>
+          </costs>
+          <profiles>
+            <profile name="Ready For Anything" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="5966-c2e3-7692-ca57">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">A single unit in the General’s Force that has been deployed at the start of the Clash begins the Clash with the On Lookout status.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="246e-7029-c2aa-5148" automatic="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Countercharge" hidden="false" id="09dd-fb02-fe7f-4261" sortIndex="5">
+          <profiles>
+            <profile name="Countercharge" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="f7cf-62f7-dd52-7c35">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, the General can issue this Special Command to one of their units that has the On Lookout status, in place of declaring Opportunity Fire.
+
+
+If the Command is successfully issued, the unit immediately makes a Charge manoeuvre, ending in contact with the active enemy unit.
+
+
+This unit then immediately makes a Close Quarters Attack. (The active enemy unit can Retaliate as normal, if it has a Melee attack.) After doing so, this unit loses its On Lookout status.
+
+
+
+
+Note: This effectively counts as declaring Opportunity Fire, meaning that a General cannot use this Special Command and Opportunity Fire in the same turn.
+ 
+If the unit is unable to end its Charge manoeuvre in contact with the active enemy unit, this Special Command cannot be issued.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="30"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6987-bebb-7323-b132" automatic="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Tactical Brilliance" hidden="false" id="2d67-e9a8-4635-9e68" sortIndex="7">
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
+          </costs>
+          <profiles>
+            <profile name="Tactical Brilliance" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="8f0c-420c-7db4-96ed">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">During the first Round of the Clash, the General increases their Hand Limit by 1 for the duration of the Round. 
+
+
+If the General begins the second Round with too many cards in their hand, they must discard the extra card before drawing any more in the Ready Phase.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5164-244c-f38c-5af7" automatic="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Mad Minute" hidden="false" id="c60d-548b-6112-9e5e" sortIndex="3">
+          <profiles>
+            <profile name="Mad Minute" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="3a3a-6b4f-28de-c5dd">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, before rolling the Attack Pool for an Infantry unit that is targeting a Light enemy unit, the General can issue this Special Command to the attacking unit.
+
+
+If the Command is successfully issued, add 4 dice to the Attack Pool.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="20"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f02f-91f8-a9dd-6084" automatic="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="The Standard Of Albion" hidden="false" id="9176-d900-8b83-718f" sortIndex="6">
+          <profiles>
+            <profile name="The Standard Of Albion" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="e89a-5eec-6d8f-aad4">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, the General can issue this Special Command to a Crown Commander unit that is not a Behemoth, at the start of its Activation.
+
+
+If the Command is successfully issued, the unit gains the Inspiring (2) special rule for the duration of its Activation.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="40"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6819-7499-74d1-54c0" automatic="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Battlegroup Bonus:" hidden="false" id="68a3-9b8c-db1a-a445" sortIndex="1">
+          <profiles>
+            <profile name="Lionhearted" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="5310-fb62-202a-e4ac">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">When making a Discipline Test for a Crown unit, this Battlegroup’s General can choose to discard a Command &amp; Conquest Card from their hand instead of drawing a card from the deck.
+
+
+The Value of the discarded card is used, as though it was the value of the drawn card.</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="f353-6a14-0887-e50c" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+            <profile name="Line Breakers (Command)" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="65d4-5a14-38b4-4261">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This Battlegroup’s General can issue this Special Command to a Crown Armour unit at the start of the End Phase.
+
+
+If the command is successfully issued, the unit can control a Strategic Objective for the duration of the phase, as though it were an Infantry or Cavalry unit.</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="df41-804b-08d3-4196" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+            <profile name="Gun Luggers (Command)" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="4172-e8e6-c0b2-7a84">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This Battlegroup’s General can issue this Special Command to a Crown Field Gun unit at the start of its Activation. 
+If the Command is successfully issued, the unit gains the Stalkers special rule for the duration of this Activation.</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="49f7-b3f5-f33b-afd7" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+            <profile name="None" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="fd4b-11b5-ff3a-fb12">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Unlike most Battlegroups, the Crown Super-Heavy Auxiliary Battlegroup does not have a Commander, or a Commander Bonus.
+
+
+This is intentional!</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="a809-8976-9c8a-3a13" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df2d-a217-d9e3-34f0"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7f62-e3b3-9c53-7ccd"/>
+          </constraints>
+          <modifiers>
+            <modifier type="append" value="Lionhearted" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f353-6a14-0887-e50c" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Line Breaker" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="df41-804b-08d3-4196" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Gun Lugger" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="49f7-b3f5-f33b-afd7" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="None" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a809-8976-9c8a-3a13" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Boons" hidden="false" id="8339-8272-b81e-3bd5" targetId="9588-4200-697f-615f" primary="true"/>
+      </categoryLinks>
     </selectionEntry>
   </selectionEntries>
   <forceEntries>
     <forceEntry name="Crown Faction Battlegroup" id="f353-6a14-0887-e50c" hidden="false" sortIndex="1">
       <categoryLinks>
+        <categoryLink name="Boons" hidden="false" id="4b42-8b0a-ce58-0adf" targetId="9588-4200-697f-615f" type="categoryEntry"/>
         <categoryLink name="Commander" hidden="false" id="1627-6672-0964-6ede" targetId="058b-06f1-5fc7-3c9a"/>
         <categoryLink name="Infantry" hidden="false" id="8e60-c4a2-5ed6-96d0" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
@@ -2636,21 +2861,22 @@ Slow to Fire, Torrent</characteristic>
     </forceEntry>
     <forceEntry name="Line-Breaker Auxiliary Battlegroup" id="df41-804b-08d3-4196" hidden="false" sortIndex="2">
       <categoryLinks>
-        <categoryLink name="Commander" hidden="false" id="91eb-df40-8d55-4fb5" targetId="058b-06f1-5fc7-3c9a" type="categoryEntry"/>
-        <categoryLink name="Infantry" hidden="false" id="8966-0616-cfe3-28de" targetId="92f8-9d17-dd4d-a5ac" type="categoryEntry">
+        <categoryLink name="Boons" hidden="false" id="280a-44e1-66ae-6660" targetId="9588-4200-697f-615f"/>
+        <categoryLink name="Commander" hidden="false" id="91eb-df40-8d55-4fb5" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Infantry" hidden="false" id="8966-0616-cfe3-28de" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5fe0-19c4-43fd-9219"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Armour/Cavalry" hidden="false" id="0897-5479-0b9b-51ce" targetId="a1a3-9cbc-d8e8-ee0c" type="categoryEntry">
+        <categoryLink name="Cavalry/Armour" hidden="false" id="0897-5479-0b9b-51ce" targetId="a1a3-9cbc-d8e8-ee0c">
           <constraints>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="84f2-dfe0-6d21-4965"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a8ed-99ae-8ae3-b58a"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Cavalry" hidden="false" id="3fde-6dd8-15a8-4f8b" targetId="d257-b36f-8e15-2d9b" type="categoryEntry"/>
-        <categoryLink name="Armour" hidden="false" id="ffe0-93f5-3a68-b18c" targetId="2c1d-3a57-3871-f158" type="categoryEntry"/>
-        <categoryLink name="Aircraft" hidden="false" id="3ba8-16c4-b99b-b0a5" targetId="554f-0054-70cc-dc43" type="categoryEntry">
+        <categoryLink name="Cavalry" hidden="false" id="3fde-6dd8-15a8-4f8b" targetId="d257-b36f-8e15-2d9b"/>
+        <categoryLink name="Armour" hidden="false" id="ffe0-93f5-3a68-b18c" targetId="2c1d-3a57-3871-f158"/>
+        <categoryLink name="Aircraft" hidden="false" id="3ba8-16c4-b99b-b0a5" targetId="554f-0054-70cc-dc43">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddf0-be2c-d9f2-c103"/>
           </constraints>
@@ -2659,19 +2885,20 @@ Slow to Fire, Torrent</characteristic>
     </forceEntry>
     <forceEntry name="Support Auxiliary BattleGroup" id="49f7-b3f5-f33b-afd7" hidden="false" sortIndex="3">
       <categoryLinks>
+        <categoryLink name="Boons" hidden="false" id="5756-8956-d549-c1eb" targetId="9588-4200-697f-615f"/>
         <categoryLink name="Commander" hidden="false" id="227b-bdfd-b370-e06d" targetId="058b-06f1-5fc7-3c9a"/>
         <categoryLink name="Armour" hidden="false" id="c7b2-88ad-bd50-acda" targetId="2c1d-3a57-3871-f158">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="1f72-ae03-7b58-f433"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Field Guns/Artillery" hidden="false" id="87cf-b273-25be-2304" targetId="e513-34a4-b72e-9f19" type="categoryEntry">
+        <categoryLink name="Field Guns/Artillery" hidden="false" id="87cf-b273-25be-2304" targetId="e513-34a4-b72e-9f19">
           <constraints>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0507-d154-a93c-c728"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fc4b-2eaa-a378-6606"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Infantry/Cavalry" hidden="false" id="8f59-6df0-121c-f055" targetId="763f-6d17-4a4b-c0df" type="categoryEntry">
+        <categoryLink name="Infantry/Cavalry" hidden="false" id="8f59-6df0-121c-f055" targetId="763f-6d17-4a4b-c0df">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="931b-9965-bb40-e148"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9514-30d9-9b67-4248"/>
@@ -2681,7 +2908,8 @@ Slow to Fire, Torrent</characteristic>
     </forceEntry>
     <forceEntry name="Crown Super-Heavy Auxiliary Battlegroup" id="a809-8976-9c8a-3a13" hidden="false" sortIndex="4">
       <categoryLinks>
-        <categoryLink name="Behemoth" hidden="false" id="0a41-418d-ca20-ec05" targetId="26dd-e4ab-0a91-096a" type="categoryEntry">
+        <categoryLink name="Boons" hidden="false" id="7f51-df36-563a-c292" targetId="9588-4200-697f-615f" type="categoryEntry"/>
+        <categoryLink name="Behemoth" hidden="false" id="0a41-418d-ca20-ec05" targetId="26dd-e4ab-0a91-096a">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="72cd-6b92-e54f-7631-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72cd-6b92-e54f-7631-max"/>
@@ -2693,9 +2921,4 @@ Slow to Fire, Torrent</characteristic>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Rules Glossary" id="6053-5a2c-81e0-1e68" targetId="4257-4b3f-e0ad-dea3"/>
   </catalogueLinks>
-  <categoryEntries>
-    <categoryEntry name="Field Guns/Artillery" id="e513-34a4-b72e-9f19" hidden="false"/>
-    <categoryEntry name="Infantry/Cavalry" id="763f-6d17-4a4b-c0df" hidden="false"/>
-    <categoryEntry name="Cavalry/Armour" id="a1a3-9cbc-d8e8-ee0c" hidden="false"/>
-  </categoryEntries>
 </catalogue>

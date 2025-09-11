@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-e850-e7dd-b6e5-f6c0" name="Armoured_Clash-Main" battleScribeVersion="2.03" revision="2" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-e850-e7dd-b6e5-f6c0" name="Armoured_Clash-Main-Snek" battleScribeVersion="2.03" revision="2" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Light" id="default-category"/>
     <categoryEntry name="Heavy" id="6aad-4085-608f-dc2f" hidden="false"/>
@@ -41,9 +41,22 @@
     <categoryEntry name="Rotorcraft" id="7631-aeb2-96eb-cddd" hidden="false">
       <comment>For Commanders, again...</comment>
     </categoryEntry>
+    <categoryEntry name="Infantry/Armour" id="796d-5047-ce17-a6ab" hidden="false"/>
+    <categoryEntry name="Fortification" id="41d4-e90f-729f-92b9" hidden="false"/>
+    <categoryEntry name="Subterranean" id="fad5-a688-0465-b899" hidden="false"/>
+    <categoryEntry name="Cavalry/Armour" id="a1a3-9cbc-d8e8-ee0c" hidden="false"/>
+    <categoryEntry name="Field Guns/Artillery" id="e513-34a4-b72e-9f19" hidden="false"/>
+    <categoryEntry name="Infantry/Cavalry" id="763f-6d17-4a4b-c0df" hidden="false"/>
+    <categoryEntry name="Gun Carriage" id="7eaa-f766-9c80-8758" hidden="false"/>
+    <categoryEntry name="Teutonic" id="9ae0-923c-a4aa-1a7b" hidden="false"/>
+    <categoryEntry name="Teutonic Armor" id="37fd-ddb2-d3d5-332b" hidden="false"/>
+    <categoryEntry name="Teutonic Field Gun" id="7426-8755-bba2-a52b" hidden="false"/>
+    <categoryEntry name="Teutonic Infantry" id="7326-b219-e807-4fca" hidden="false"/>
+    <categoryEntry name="Tractor" id="a0a3-b1b7-dee2-c8c6" hidden="false"/>
+    <categoryEntry name="Armour/Artillery" id="1a01-9a6d-4d44-aa8e" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Default Root Entry" hidden="false" id="default-entry">
+    <selectionEntry type="upgrade" import="false" name="Default Root Entry" hidden="false" id="default-entry">
       <categoryLinks>
         <categoryLink targetId="default-category" id="default-category-link" primary="true" name="Light" hidden="false"/>
       </categoryLinks>

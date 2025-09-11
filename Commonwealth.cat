@@ -5,9 +5,9 @@
       <categoryLinks>
         <categoryLink name="Light" hidden="false" id="bdb3-16f6-5442-934e" targetId="default-category" primary="false"/>
         <categoryLink targetId="5953-76d6-e748-661f" id="7a80-1dc2-ce69-8601" primary="false" name="Commonwealth"/>
-        <categoryLink targetId="efad-be52-8751-ed4d" id="40a5-0474-a258-4f6b" primary="false" name="Infantry/Cavalry"/>
         <categoryLink targetId="92f8-9d17-dd4d-a5ac" id="9c42-43ee-50f5-2fb8" primary="true" name="Infantry"/>
         <categoryLink targetId="796d-5047-ce17-a6ab" id="95ab-1937-de5b-b58b" primary="false" name="Infantry/Armour"/>
+        <categoryLink targetId="763f-6d17-4a4b-c0df" id="241d-b24a-dec5-1979" primary="false" name="Infantry/Cavalry"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="d557-1243-80f8-daba" noindex="false">
@@ -285,7 +285,7 @@
         <categoryLink name="Light" hidden="false" id="9f13-510f-9941-c97c" targetId="default-category" primary="false"/>
         <categoryLink targetId="5953-76d6-e748-661f" id="98f8-3b6f-ccea-2d6a" primary="false" name="Commonwealth"/>
         <categoryLink targetId="92f8-9d17-dd4d-a5ac" id="a1a9-b394-8f35-05f6" primary="true" name="Infantry"/>
-        <categoryLink targetId="efad-be52-8751-ed4d" id="7633-fc28-cd42-5fe7" primary="false" name="Infantry/Cavalry"/>
+        <categoryLink targetId="763f-6d17-4a4b-c0df" id="4f70-fe40-e6f9-8f7b" primary="false" name="Infantry/Cavalry"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="5d68-d2fd-e71a-9313" noindex="false">
@@ -433,8 +433,8 @@
       <categoryLinks>
         <categoryLink name="Light" hidden="false" id="0fad-956b-d968-f235" targetId="default-category" primary="false"/>
         <categoryLink targetId="5953-76d6-e748-661f" id="73fd-a3e3-3ec6-2940" primary="false" name="Commonwealth"/>
-        <categoryLink targetId="efad-be52-8751-ed4d" id="70dc-f827-9016-0941" primary="false" name="Infantry/Cavalry"/>
         <categoryLink targetId="d257-b36f-8e15-2d9b" id="17bb-14d7-0ba1-8a83" primary="true" name="Cavalry"/>
+        <categoryLink targetId="763f-6d17-4a4b-c0df" id="a544-39f0-9f48-c0a6" primary="false" name="Infantry/Cavalry"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="7dc2-e8ef-45b0-3bb9" noindex="false">
@@ -588,7 +588,7 @@
         <categoryLink name="Light" hidden="false" id="4655-1c1b-9aa3-ea68" targetId="default-category" primary="false"/>
         <categoryLink targetId="5953-76d6-e748-661f" id="2630-ac4e-0490-1b30" primary="false" name="Commonwealth"/>
         <categoryLink targetId="92f8-9d17-dd4d-a5ac" id="9b2f-1c6f-8cf6-56da" primary="true" name="Infantry"/>
-        <categoryLink targetId="efad-be52-8751-ed4d" id="3414-f4c6-fab3-9199" primary="false" name="Infantry/Cavalry"/>
+        <categoryLink targetId="763f-6d17-4a4b-c0df" id="a0f4-3420-3f8d-0f0e" primary="false" name="Infantry/Cavalry"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="3c22-8689-601c-bb1c" noindex="false">
@@ -723,8 +723,8 @@
       <categoryLinks>
         <categoryLink name="Light" hidden="false" id="f445-58d4-ef5d-306c" targetId="default-category" primary="false"/>
         <categoryLink targetId="5953-76d6-e748-661f" id="915d-4dba-ee19-168e" primary="false" name="Commonwealth"/>
-        <categoryLink targetId="efad-be52-8751-ed4d" id="157e-dcf3-baad-d56d" primary="false" name="Infantry/Cavalry"/>
         <categoryLink targetId="d257-b36f-8e15-2d9b" id="ec2a-3602-c18e-5920" primary="true" name="Cavalry"/>
+        <categoryLink targetId="763f-6d17-4a4b-c0df" id="49f0-d09a-bb07-fe78" primary="false" name="Infantry/Cavalry"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="fd24-53ca-54e5-4cf8" noindex="false">
@@ -2443,6 +2443,205 @@
         </modifier>
       </modifiers>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Boons and bonuses" hidden="false" id="2db4-193f-4320-0428" sortIndex="0">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Forlorn Hope" hidden="false" id="3f93-51d3-2d6b-3d71" sortIndex="2">
+          <profiles>
+            <profile name="Forlorn Hope" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="7469-c5c2-fc47-cff3">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">A single unit in the General’s Force that has been deployed at the start of the Clash gains the Vanguard (10”) special rule.
+
+
+A unit that already has the Vanguard (X”) special rule uses the highest (X) value of the two available.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="15"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="329b-1fc3-4509-1f19" automatic="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Ready For Anything" hidden="false" id="c2df-d05f-e23e-b7f5" sortIndex="3">
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="20"/>
+          </costs>
+          <profiles>
+            <profile name="Ready For Anything" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="8a58-25fd-8b1f-7b84">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">A single unit in the General’s Force that has been deployed at the start of the Clash begins the Clash with the On Lookout status.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6767-5ace-8ce9-2c89" automatic="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Countercharge" hidden="false" id="24c9-7a5c-1ec2-7a5b" sortIndex="5">
+          <profiles>
+            <profile name="Countercharge" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="41cd-c298-68c3-bb7b">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, the General can issue this Special Command to one of their units that has the On Lookout status, in place of declaring Opportunity Fire.
+
+
+If the Command is successfully issued, the unit immediately makes a Charge manoeuvre, ending in contact with the active enemy unit.
+
+
+This unit then immediately makes a Close Quarters Attack. (The active enemy unit can Retaliate as normal, if it has a Melee attack.) After doing so, this unit loses its On Lookout status.
+
+
+
+
+Note: This effectively counts as declaring Opportunity Fire, meaning that a General cannot use this Special Command and Opportunity Fire in the same turn.
+ 
+If the unit is unable to end its Charge manoeuvre in contact with the active enemy unit, this Special Command cannot be issued.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="30"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5157-3a74-0745-f95d" automatic="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Tactical Brilliance" hidden="false" id="2f28-1efe-8dec-0009" sortIndex="6">
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="45"/>
+          </costs>
+          <profiles>
+            <profile name="Tactical Brilliance" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="8f00-0a52-07cb-c724">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">During the first Round of the Clash, the General increases their Hand Limit by 1 for the duration of the Round. 
+
+
+If the General begins the second Round with too many cards in their hand, they must discard the extra card before drawing any more in the Ready Phase.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8cd0-fcf1-02e2-72c8" automatic="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Oprichnina Agent" hidden="false" id="8479-ab4f-a755-8d58" sortIndex="4">
+          <profiles>
+            <profile name="Oprichnina Agent" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="00d0-d609-da5d-7628">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Round, when a Commonwealth Infantry or Cavalry unit in this Force fails a Discipline Test, its General may choose to pass this test instead.
+
+
+Its Officer model is immediately Destroyed and the unit gains the Disordered status due to Loss of an Officer.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="25"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="48ac-ac37-2bdc-db43" automatic="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Seismic Primanka" hidden="false" id="f2d3-a911-5b65-a4a9" sortIndex="7">
+          <profiles>
+            <profile name="Seismic Primanka" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="5866-36f9-e782-33b7">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">If this Force contains at least one Subterranean unit, its General may, after all units have been deployed, deploy an additional Subterranean Marker.
+
+
+Once all Subterranean units in the General’s  army have arrived from Reserve, the remaining Subterranean Marker is immediately removed from play.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="e58e-982d-7630-5342" value="50"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a717-35af-22e4-c9b7" automatic="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="fad5-a688-0465-b899" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Battlegroup Bonus:" hidden="false" id="99cb-5e8f-4ddc-96c6" sortIndex="1">
+          <profiles>
+            <profile name="Grim Resolve (Command)" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="9e20-9622-5577-9c44">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">This Battlegroup’s General can issue this Special Command to a Commonwealth unit at the end of a Close Quarters Combat.
+
+
+If the command is successfully issued, this Close Quarters Combat ends in a Stalemate, regardless of the number of models destroyed in each unit.</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="9720-ada4-14a9-5282" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+            <profile name="The Deluge" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="e008-5939-1372-6d97">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">After a Commonwealth unit in this Force has rolled the dice for a Close Quarters Attack targeting a unit with the Suppressed status, its General may discard a Command &amp; Conquest card to re-roll any dice showing a Blank result.</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="6da9-8821-9946-ba3a" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+            <profile name="Legacy Of The Khans" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="0d4a-3e03-4004-81f5">
+              <characteristics>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">When a Commonwealth unit in this Force with the Hit and Run (X ) special rule finishes its Attack Step, its General may choose to discard a Command &amp; Conquest card from their hand.
+
+
+If they do so, the unit’s Hit and Run (X ) value is treated as the same as its Speed value for the duration of this Activation.
+
+
+Additionally, the unit does not lose the On Lookout status if it makes a free Advance manoeuvre using the Hit and Run (X ) special rule during this Activation.</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c25a-9139-f7a3-cfc8"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b6d3-2349-dd92-e369"/>
+          </constraints>
+          <modifiers>
+            <modifier type="append" value="Legacy Of The Khans" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="3813-f906-8fb4-bba5" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="The Deluge" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6da9-8821-9946-ba3a" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" value="Grim Resolve" field="name">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="9720-ada4-14a9-5282" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Boons" hidden="false" id="9e3e-bea1-17f7-8e4c" targetId="9588-4200-697f-615f" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Rules Glossary" id="6f3e-1374-c6d0-654a" targetId="4257-4b3f-e0ad-dea3"/>
@@ -2450,8 +2649,9 @@
   <forceEntries>
     <forceEntry name="Commonwealth Faction BattleGroup" id="9720-ada4-14a9-5282" hidden="false">
       <categoryLinks>
+        <categoryLink name="Boons" hidden="false" id="96d6-3e10-1ddc-4b77" targetId="9588-4200-697f-615f"/>
         <categoryLink name="Commander" hidden="false" id="39d3-d6de-a3fc-e7fd" targetId="058b-06f1-5fc7-3c9a"/>
-        <categoryLink name="Infantry/Cavalry" hidden="false" id="660c-cfd8-f956-abd4" targetId="efad-be52-8751-ed4d">
+        <categoryLink name="Infantry/Cavalry" hidden="false" id="660c-cfd8-f956-abd4" targetId="763f-6d17-4a4b-c0df" type="categoryEntry">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="force" shared="true" id="ee75-430f-0988-723a" includeChildSelections="false"/>
             <constraint type="max" value="6" field="selections" scope="force" shared="true" id="9fed-e9e1-30aa-eed5" includeChildSelections="false"/>
@@ -2481,6 +2681,7 @@
     </forceEntry>
     <forceEntry name="Commonwealth Bardiche auxiliary Battlegroup" id="6da9-8821-9946-ba3a" hidden="false">
       <categoryLinks>
+        <categoryLink name="Boons" hidden="false" id="5414-b6f3-fba2-3826" targetId="9588-4200-697f-615f" type="categoryEntry"/>
         <categoryLink name="Commander" hidden="false" id="7816-5b2f-ec06-1226" targetId="058b-06f1-5fc7-3c9a"/>
         <categoryLink name="Infantry" hidden="false" id="7443-5a77-c575-b599" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
@@ -2508,6 +2709,7 @@
     </forceEntry>
     <forceEntry name="Commonwealth Jad Auxiliary Battlegroup" id="3813-f906-8fb4-bba5" hidden="false">
       <categoryLinks>
+        <categoryLink name="Boons" hidden="false" id="5268-8c9d-746f-3ae5" targetId="9588-4200-697f-615f"/>
         <categoryLink name="Commander" hidden="false" id="8eed-604e-d05c-cefe" targetId="058b-06f1-5fc7-3c9a"/>
         <categoryLink name="Infantry/Armour" hidden="false" id="4280-14b2-bfe0-6119" targetId="796d-5047-ce17-a6ab">
           <constraints>
@@ -2534,10 +2736,4 @@
       </categoryLinks>
     </forceEntry>
   </forceEntries>
-  <categoryEntries>
-    <categoryEntry name="Infantry/Cavalry" id="efad-be52-8751-ed4d" hidden="false"/>
-    <categoryEntry name="Subterranean" id="fad5-a688-0465-b899" hidden="false"/>
-    <categoryEntry name="Fortification" id="41d4-e90f-729f-92b9" hidden="false"/>
-    <categoryEntry name="Infantry/Armour" id="796d-5047-ce17-a6ab" hidden="false"/>
-  </categoryEntries>
 </catalogue>

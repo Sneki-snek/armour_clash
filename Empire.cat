@@ -1957,7 +1957,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="3a86-d373-35f0-d2ff" noindex="true">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Pioneers, Sponsons (3)</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Pioneers, Sponsons (4)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1966,13 +1966,13 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
           <entryLinks>
             <entryLink import="true" name="Basic" hidden="false" id="99f9-43e3-f507-bd8c" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
               <profiles>
-                <profile name="Fangun Medium Tanks" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="e4a2-b183-7623-0fb9">
+                <profile name="Yan Shou Tanks" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="e4a2-b183-7623-0fb9">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
                     <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
                     <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">7&quot;</characteristic>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
                     <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
@@ -1990,13 +1990,13 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="809c-cfc5-fb72-6390" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
               <profiles>
-                <profile name="Fangun Medium Tanks" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="8229-0cf0-f025-d5b2">
+                <profile name="Yan Shou Tanks" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="9086-5eb0-450e-d86a">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
                     <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
                     <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">7&quot;</characteristic>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
                     <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
@@ -2014,13 +2014,13 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
             </entryLink>
             <entryLink import="true" name="Reinforced" hidden="false" id="6d18-f7d1-d1ed-68b4" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
               <profiles>
-                <profile name="Fangun Medium Tanks" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="0fbb-ed74-cbb8-20a5">
+                <profile name="Yan Shou Tanks" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="699c-4ff7-d5ed-a326">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
                     <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
                     <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
-                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">7&quot;</characteristic>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">8&quot;</characteristic>
                     <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
                     <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">3</characteristic>
                     <characteristic name="Discipline" typeId="9692-df81-03cd-8583">5</characteristic>
@@ -2066,7 +2066,7 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
             </profile>
             <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="1189-eebc-fbad-f6fd">
               <characteristics>
-                <characteristic name="Range" typeId="0d60-0078-7134-d302">10&quot;/30&quot;</characteristic>
+                <characteristic name="Range" typeId="0d60-0078-7134-d302">4&quot;/8&quot;</characteristic>
                 <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">7</characteristic>
                 <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">11</characteristic>
                 <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">15</characteristic>
@@ -2082,6 +2082,611 @@ Do not count units that are Suppressed or Embarked on Transport units. </charac
       </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e2ca-3483-b396-19b5" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Fengbao Heavy Launchers" hidden="false" id="dcb8-d7aa-e2db-200f" sortIndex="16">
+      <categoryLinks>
+        <categoryLink targetId="4ac3-36d9-e25e-4ba3" id="aa70-29e4-f108-7724" primary="false" name="Empire"/>
+        <categoryLink targetId="6aad-4085-608f-dc2f" id="0ea1-2f9e-eb00-e4a9" primary="false" name="Heavy"/>
+        <categoryLink targetId="3d8a-88d7-d75b-191d" id="5708-09cb-1a5d-8d37" primary="true" name="Artillery"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="7129-8d34-6158-d051" noindex="true">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Cumbersome, Static</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Bolstering" id="c5a9-4e0b-ef90-b082" hidden="false" sortIndex="2">
+          <entryLinks>
+            <entryLink import="true" name="Basic" hidden="false" id="658a-c2c7-c5fd-a0b4" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
+              <profiles>
+                <profile name="Fengbao Heavy Launchers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="b14a-3a99-01df-ec25">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">3&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength" hidden="false" id="28b5-c44e-6238-6022" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
+              <profiles>
+                <profile name="Fengbao Heavy Launchers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="7486-d75f-e9b1-432f">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">3&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced" hidden="false" id="0209-80dd-4332-16d6" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
+              <profiles>
+                <profile name="Fengbao Heavy Launchers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="c489-f60e-61e5-10eb">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">3&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f484-a5d3-4947-12b0"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7eac-4285-64ee-5a5f"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="2200-ff26-28aa-3db3" flatten="true" collective="false" sortIndex="1" collapsible="true">
+          <profiles>
+            <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="3735-1bfd-41e2-0c0c">
+              <characteristics>
+                <characteristic name="Range" typeId="0d60-0078-7134-d302">10&quot;/30&quot;</characteristic>
+                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">4</characteristic>
+                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
+                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">8</characteristic>
+                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Indirect, Torrent, Suppressive</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="327b-e196-18e4-d59f">
+              <characteristics>
+                <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
+                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">2</characteristic>
+                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">4</characteristic>
+                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">6</characteristic>
+                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="3547-2ccb-6794-4e83">
+              <characteristics>
+                <characteristic name="Range" typeId="0d60-0078-7134-d302">10&quot;/30&quot;</characteristic>
+                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">6</characteristic>
+                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">10</characteristic>
+                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">14</characteristic>
+                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Indirect, Torrent, Suppressive</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eb2f-e346-5341-c4f5" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0fc-32e2-8b5a-b32b" automatic="true"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="cb93-9a54-a237-9d44" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="San Lei Heavy Launchers" hidden="false" id="a805-76b5-7850-31aa" sortIndex="17">
+      <categoryLinks>
+        <categoryLink targetId="4ac3-36d9-e25e-4ba3" id="d376-d8c1-af23-83d6" primary="false" name="Empire"/>
+        <categoryLink targetId="6aad-4085-608f-dc2f" id="a352-2d3d-a7c1-4e79" primary="false" name="Heavy"/>
+        <categoryLink targetId="3d8a-88d7-d75b-191d" id="6709-a7e3-838b-5685" primary="true" name="Artillery"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="4ebd-e8f0-dcde-fd23" noindex="true">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Cumbersome, Static</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Bolstering" id="b981-b30f-53c0-6b46" hidden="false" sortIndex="2">
+          <entryLinks>
+            <entryLink import="true" name="Basic" hidden="false" id="42b1-908d-a7bd-ddb5" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
+              <profiles>
+                <profile name="San Lei Heavy Launchers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="6696-765a-2713-dc77">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">3&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength" hidden="false" id="e0cc-7177-1c65-ec68" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
+              <profiles>
+                <profile name="San Lei Heavy Launchers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="088e-ef8e-324d-1c51">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">3&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="6" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced" hidden="false" id="e97f-7c66-dd1e-f4eb" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
+              <profiles>
+                <profile name="San Lei Heavy Launchers" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="35a3-3c1e-0cea-fabe">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">2</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">3&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">2</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="4" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="4" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c649-0709-2841-27f8"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab02-9658-6315-4311"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="0da6-b1dc-a38d-8da0" flatten="true" collective="false" sortIndex="1" collapsible="true">
+          <profiles>
+            <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="d76a-0fef-e2b2-84cd">
+              <characteristics>
+                <characteristic name="Range" typeId="0d60-0078-7134-d302">16&quot;/36&quot;</characteristic>
+                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">6</characteristic>
+                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">10</characteristic>
+                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">14</characteristic>
+                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="089d-3312-a7bc-fe2a">
+              <characteristics>
+                <characteristic name="Range" typeId="0d60-0078-7134-d302">-</characteristic>
+                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">2</characteristic>
+                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">4</characteristic>
+                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">6</characteristic>
+                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ranged (Light)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="b600-1170-82c9-a5ea">
+              <characteristics>
+                <characteristic name="Range" typeId="0d60-0078-7134-d302">16&quot;/36&quot;</characteristic>
+                <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
+                <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
+                <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">9</characteristic>
+                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a6ac-6d25-cff5-3fa3" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6834-f971-e275-23de" automatic="true"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b855-8e3f-29ea-790a" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Doksuri Fighter Squadron" hidden="false" id="7167-2b49-a3a7-d740" sortIndex="18">
+      <categoryLinks>
+        <categoryLink targetId="4ac3-36d9-e25e-4ba3" id="1f32-6784-4c7c-fe20" primary="false" name="Empire"/>
+        <categoryLink targetId="e3f5-6c6c-0532-1c43" id="7505-b25a-0ca0-7bf5" primary="false" name="Aerial"/>
+        <categoryLink targetId="554f-0054-70cc-dc43" id="bf01-81e3-6d74-cbbd" primary="true" name="Aircraft"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="9ff7-7717-82ee-8222" noindex="true">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Bank (5”), Fiery Demise (3), Flying, Veteran (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Bolstering" id="d3f0-e938-cc6e-4b18" hidden="false" sortIndex="2">
+          <entryLinks>
+            <entryLink import="true" name="Basic" hidden="false" id="3efd-0fb5-4562-7733" type="selectionEntry" targetId="f088-e6d4-8fe3-0f3e" sortIndex="1">
+              <profiles>
+                <profile name="Doksuri Fighter Squadron" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="4509-7c5a-18e0-7b4a">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Aerial</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">8</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">-&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="1" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="90"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Full Strength" hidden="false" id="7038-c06e-8187-43de" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
+              <profiles>
+                <profile name="Doksuri Fighter Squadron" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="e292-76c6-fd0a-5a3c">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Aerial</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">8</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">-&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="3" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Reinforced" hidden="false" id="a2fa-8e38-0edb-7ce2" type="selectionEntry" targetId="85c2-43ee-a668-834f" sortIndex="2" flatten="false">
+              <profiles>
+                <profile name="Doksuri Fighter Squadron" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="85c8-d415-8135-a687">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Aerial</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">8</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">-&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">3</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">2</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">6</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="2" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="2" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="160"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="707e-eeee-2225-99ca"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc98-acde-b7ff-2731"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="f9db-b922-f6a8-be8a" flatten="true" collective="false" sortIndex="1" collapsible="true">
+          <profiles>
+            <profile name="Ranged (Light)" typeId="ae82-73aa-c9d6-d719" typeName="Type" hidden="false" id="a38a-8ebe-2213-e958">
+              <characteristics>
+                <characteristic name="Range" typeId="c7d4-8837-db2a-853e">5&quot;/12&quot;</characteristic>
+                <characteristic name="1" typeId="d488-d433-55e3-87c0">4</characteristic>
+                <characteristic name="2" typeId="9869-9545-e597-5da6">6</characteristic>
+                <characteristic name="3" typeId="cc94-143d-b205-52e3">10</characteristic>
+                <characteristic name="Qualities" typeId="f973-0012-4bcd-1728">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ranged (Aerial)" typeId="ae82-73aa-c9d6-d719" typeName="Type" hidden="false" id="9a0f-12f8-9849-73ea">
+              <characteristics>
+                <characteristic name="Range" typeId="c7d4-8837-db2a-853e">3&quot;/8&quot;</characteristic>
+                <characteristic name="1" typeId="d488-d433-55e3-87c0">3</characteristic>
+                <characteristic name="2" typeId="9869-9545-e597-5da6">5</characteristic>
+                <characteristic name="3" typeId="cc94-143d-b205-52e3">7</characteristic>
+                <characteristic name="Qualities" typeId="f973-0012-4bcd-1728">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ranged (Heavy)" typeId="ae82-73aa-c9d6-d719" typeName="Type" hidden="false" id="ef67-e405-3e45-c0be">
+              <characteristics>
+                <characteristic name="Range" typeId="c7d4-8837-db2a-853e">5&quot;/12&quot;</characteristic>
+                <characteristic name="1" typeId="d488-d433-55e3-87c0">5</characteristic>
+                <characteristic name="2" typeId="9869-9545-e597-5da6">8</characteristic>
+                <characteristic name="3" typeId="cc94-143d-b205-52e3">11</characteristic>
+                <characteristic name="Qualities" typeId="f973-0012-4bcd-1728">Devastating</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="504d-28e1-f774-7fcf" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb3f-7cda-e349-e093" automatic="true"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9e81-e840-b200-70bc" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Wutai Landship" hidden="false" id="ed4d-1166-725a-997f" sortIndex="19">
+      <categoryLinks>
+        <categoryLink targetId="4ac3-36d9-e25e-4ba3" id="f2c2-d448-70f2-1eb6" primary="false" name="Empire"/>
+        <categoryLink targetId="2c1d-3a57-3871-f158" id="1ad3-e79d-0ed5-d4c5" primary="true" name="Armour"/>
+        <categoryLink targetId="6aad-4085-608f-dc2f" id="a274-fc10-24d1-2586" primary="false" name="Heavy"/>
+        <categoryLink targetId="26dd-e4ab-0a91-096a" id="9e0c-c83f-ce9f-de7f" primary="false" name="Behemoth"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="b49f-6e00-3a18-ee6b" noindex="true">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out Attack (3), Corrosive Fumes (5”), Large, Obfuscating (5”), Ponderous, Slow, Spectacular Demise (10), Sponsons (3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Bolstering" id="b086-4ee2-b6d4-4a11" hidden="false" sortIndex="2">
+          <entryLinks>
+            <entryLink import="true" name="Full Strength" hidden="false" id="8747-e633-7f68-105b" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
+              <profiles>
+                <profile name="Wutai Landship" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="61fe-c578-f879-daec">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">4</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">4</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">16</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="1" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3761-3f15-0904-5d7a"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0450-a8be-9422-41cd"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="e60c-35d9-bcca-92cc" flatten="true" collective="false" sortIndex="1" collapsible="true">
+          <profiles>
+            <profile name="Ranged (Light)" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="0d6e-3c3b-9018-7040">
+              <characteristics>
+                <characteristic name="Range" typeId="2701-5c54-f68b-b5db">4&quot;/8&quot;</characteristic>
+                <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">8</characteristic>
+                <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">12</characteristic>
+                <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">17</characteristic>
+                <characteristic name="Qualities" typeId="0833-055a-302e-e350">Suppressive, Torrent</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ranged (Heavy)" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="0db8-0d16-4c49-b36c">
+              <characteristics>
+                <characteristic name="Range" typeId="2701-5c54-f68b-b5db">16&quot;/32&quot;</characteristic>
+                <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">5</characteristic>
+                <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">10</characteristic>
+                <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">15</characteristic>
+                <characteristic name="Qualities" typeId="0833-055a-302e-e350">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ranged (Heavy)" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="85ff-10aa-da28-9246">
+              <characteristics>
+                <characteristic name="Range" typeId="2701-5c54-f68b-b5db">6&quot;/38&quot;</characteristic>
+                <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">6</characteristic>
+                <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">10</characteristic>
+                <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">14</characteristic>
+                <characteristic name="Qualities" typeId="0833-055a-302e-e350">Devastating, Indirect, Move or Fire</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Impact" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="03d9-7e52-98e1-db62">
+              <characteristics>
+                <characteristic name="Range" typeId="2701-5c54-f68b-b5db">-</characteristic>
+                <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">4</characteristic>
+                <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">8</characteristic>
+                <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">12</characteristic>
+                <characteristic name="Qualities" typeId="0833-055a-302e-e350">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bed8-a4db-7a25-fa0b" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8005-cff6-59e2-7378" automatic="true"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="eb40-0863-c9f5-732e" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Laoshan Landship" hidden="false" id="1eac-9cfb-98e1-13a6" sortIndex="20">
+      <categoryLinks>
+        <categoryLink targetId="4ac3-36d9-e25e-4ba3" id="c3b7-5a12-f38f-81b5" primary="false" name="Empire"/>
+        <categoryLink targetId="2c1d-3a57-3871-f158" id="7385-958c-b0b4-5610" primary="true" name="Armour"/>
+        <categoryLink targetId="6aad-4085-608f-dc2f" id="1872-f909-cbdc-5cbe" primary="false" name="Heavy"/>
+        <categoryLink targetId="26dd-e4ab-0a91-096a" id="2068-9d80-b21e-313e" primary="false" name="Behemoth"/>
+        <categoryLink targetId="058b-06f1-5fc7-3c9a" id="8e3c-5821-1e05-d10a" primary="false" name="Commander"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="176e-fad3-84dc-fb41" noindex="true">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">All-Out Attack (3), Corrosive Fumes (5”), Large, Obfuscating (5”), Ponderous, Slow, Spectacular Demise (10), Sponsons (3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Bolstering" id="5648-a24e-36d7-0b43" hidden="false" sortIndex="2">
+          <entryLinks>
+            <entryLink import="true" name="Full Strength" hidden="false" id="ef3c-4f0a-995b-b518" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3" flatten="false">
+              <profiles>
+                <profile name="Wutai Landship" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="2de6-1f61-ca4d-59b4">
+                  <characteristics>
+                    <characteristic name="Target type" typeId="de47-7191-892f-3c71">Heavy</characteristic>
+                    <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">4</characteristic>
+                    <characteristic name="Models" typeId="3e5d-fadc-d9fb-6570"/>
+                    <characteristic name="VPR" typeId="bb79-114d-2dc7-ca18"/>
+                    <characteristic name="Speed" typeId="a1ff-3505-834d-23aa">6&quot;</characteristic>
+                    <characteristic name="Defence" typeId="a389-3217-cc15-c1ef">4</characteristic>
+                    <characteristic name="Damage limit" typeId="b2ff-c899-9816-a2bd">16</characteristic>
+                    <characteristic name="Discipline" typeId="9692-df81-03cd-8583">7</characteristic>
+                    <characteristic name="Break Limit" typeId="e0f3-cfb5-7ab1-549a">-</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" value="1" field="3e5d-fadc-d9fb-6570"/>
+                    <modifier type="set" value="6" field="bb79-114d-2dc7-ca18"/>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="e58e-982d-7630-5342" value="245"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6c87-642b-d422-ff9a"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddc5-8f2c-b986-5a29"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name=" Weapons" hidden="false" id="0a8a-39ba-01d3-cf57" flatten="true" collective="false" sortIndex="1" collapsible="true">
+          <profiles>
+            <profile name="Ranged (Light)" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="3624-63c3-684c-8fe9">
+              <characteristics>
+                <characteristic name="Range" typeId="2701-5c54-f68b-b5db">10&quot;/20&quot;</characteristic>
+                <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">4</characteristic>
+                <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">8</characteristic>
+                <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">12</characteristic>
+                <characteristic name="Qualities" typeId="0833-055a-302e-e350">Suppressive</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ranged (Heavy)" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="eeba-4b02-2de7-7220">
+              <characteristics>
+                <characteristic name="Range" typeId="2701-5c54-f68b-b5db">16&quot;/32&quot;</characteristic>
+                <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">5</characteristic>
+                <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">10</characteristic>
+                <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">15</characteristic>
+                <characteristic name="Qualities" typeId="0833-055a-302e-e350">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Ranged (Aerial)" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="89a5-78b5-7a45-6c19">
+              <characteristics>
+                <characteristic name="Range" typeId="2701-5c54-f68b-b5db">5&quot;/10&quot;</characteristic>
+                <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">4</characteristic>
+                <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">6</characteristic>
+                <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">8</characteristic>
+                <characteristic name="Qualities" typeId="0833-055a-302e-e350">Turret</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Impact" typeId="ee3c-551f-76af-1003" typeName="Type" hidden="false" id="b227-be88-a716-b4af">
+              <characteristics>
+                <characteristic name="Range" typeId="2701-5c54-f68b-b5db">-</characteristic>
+                <characteristic name="10-15" typeId="af3b-7f79-4aa9-20d4">12</characteristic>
+                <characteristic name="5-9" typeId="4790-8f0a-37e7-12e9">14</characteristic>
+                <characteristic name="0-4" typeId="acef-aeb2-7abd-c306">18</characteristic>
+                <characteristic name="Qualities" typeId="0833-055a-302e-e350">Penetrating</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4e99-e200-87fb-397d" automatic="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a15a-47d3-c3f9-8c06" automatic="true"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2624-b40c-1598-1c93" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
   </selectionEntries>

@@ -304,6 +304,16 @@
       </characteristicTypes>
       <comment>weapons Behemoth 0-8</comment>
     </profileType>
+    <profileType name="Type" id="ee3c-551f-76af-1003" hidden="false" sortIndex="8">
+      <characteristicTypes>
+        <characteristicType name="Range" id="2701-5c54-f68b-b5db"/>
+        <characteristicType name="10-15" id="af3b-7f79-4aa9-20d4"/>
+        <characteristicType name="5-9" id="4790-8f0a-37e7-12e9"/>
+        <characteristicType name="0-4" id="acef-aeb2-7abd-c306"/>
+        <characteristicType name="Qualities" id="0833-055a-302e-e350"/>
+      </characteristicTypes>
+      <comment>weapons Behemoth 0-15</comment>
+    </profileType>
   </profileTypes>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Basic" hidden="false" id="f088-e6d4-8fe3-0f3e">

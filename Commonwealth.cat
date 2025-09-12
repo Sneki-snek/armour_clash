@@ -2312,27 +2312,27 @@
             <profile name="Ranged (Aerial)" typeId="e5cb-a327-9927-e1c2" typeName="Type" hidden="false" id="aa55-f0ce-bd6c-f97f">
               <characteristics>
                 <characteristic name="Range" typeId="441f-d21a-ef2b-2c8a">6&quot;/20&quot;</characteristic>
-                <characteristic name="7-8" typeId="695f-299c-7e58-f275">3</characteristic>
-                <characteristic name="4-6" typeId="e27c-135a-2199-2587">5</characteristic>
-                <characteristic name="0-3" typeId="7a70-c3bd-de13-ddd6">7</characteristic>
+                <characteristic name="6-7" typeId="695f-299c-7e58-f275">3</characteristic>
+                <characteristic name="3-5" typeId="e27c-135a-2199-2587">5</characteristic>
+                <characteristic name="0-2" typeId="7a70-c3bd-de13-ddd6">7</characteristic>
                 <characteristic name="Qualities" typeId="e2c3-64fe-0b86-9ca8">Turret</characteristic>
               </characteristics>
             </profile>
             <profile name="Ranged (Light)" typeId="e5cb-a327-9927-e1c2" typeName="Type" hidden="false" id="9d6c-77ca-f755-57dd">
               <characteristics>
                 <characteristic name="Range" typeId="441f-d21a-ef2b-2c8a">4&quot;/28&quot;</characteristic>
-                <characteristic name="7-8" typeId="695f-299c-7e58-f275">4</characteristic>
-                <characteristic name="4-6" typeId="e27c-135a-2199-2587">5</characteristic>
-                <characteristic name="0-3" typeId="7a70-c3bd-de13-ddd6">6</characteristic>
+                <characteristic name="6-7" typeId="695f-299c-7e58-f275">4</characteristic>
+                <characteristic name="3-5" typeId="e27c-135a-2199-2587">5</characteristic>
+                <characteristic name="0-2" typeId="7a70-c3bd-de13-ddd6">6</characteristic>
                 <characteristic name="Qualities" typeId="e2c3-64fe-0b86-9ca8">Indirect, Seismic, Suppressive, Turret</characteristic>
               </characteristics>
             </profile>
             <profile name="Ranged (Light/Heavy)" typeId="e5cb-a327-9927-e1c2" typeName="Type" hidden="false" id="8cf8-df55-48cf-569c">
               <characteristics>
                 <characteristic name="Range" typeId="441f-d21a-ef2b-2c8a">4&quot;/36&quot;</characteristic>
-                <characteristic name="7-8" typeId="695f-299c-7e58-f275">4</characteristic>
-                <characteristic name="4-6" typeId="e27c-135a-2199-2587">7</characteristic>
-                <characteristic name="0-3" typeId="7a70-c3bd-de13-ddd6">10</characteristic>
+                <characteristic name="6-7" typeId="695f-299c-7e58-f275">4</characteristic>
+                <characteristic name="3-5" typeId="e27c-135a-2199-2587">7</characteristic>
+                <characteristic name="0-2" typeId="7a70-c3bd-de13-ddd6">10</characteristic>
                 <characteristic name="Qualities" typeId="e2c3-64fe-0b86-9ca8">Devastating, Indirect, Suppressive, Turret</characteristic>
               </characteristics>
             </profile>
@@ -2410,18 +2410,18 @@
             <profile name="Ranged (Light/Heavy)" typeId="e5cb-a327-9927-e1c2" typeName="Type" hidden="false" id="f658-ba96-f8a6-89a2">
               <characteristics>
                 <characteristic name="Range" typeId="441f-d21a-ef2b-2c8a">8&quot;/16&quot;</characteristic>
-                <characteristic name="7-8" typeId="695f-299c-7e58-f275">5</characteristic>
-                <characteristic name="4-6" typeId="e27c-135a-2199-2587">9</characteristic>
-                <characteristic name="0-3" typeId="7a70-c3bd-de13-ddd6">13</characteristic>
+                <characteristic name="6-7" typeId="695f-299c-7e58-f275">5</characteristic>
+                <characteristic name="3-5" typeId="e27c-135a-2199-2587">9</characteristic>
+                <characteristic name="0-2" typeId="7a70-c3bd-de13-ddd6">13</characteristic>
                 <characteristic name="Qualities" typeId="e2c3-64fe-0b86-9ca8">Cryo, Suppressive, Torrent</characteristic>
               </characteristics>
             </profile>
             <profile name="Ranged (Light)" typeId="e5cb-a327-9927-e1c2" typeName="Type" hidden="false" id="8d98-faeb-1934-322b">
               <characteristics>
                 <characteristic name="Range" typeId="441f-d21a-ef2b-2c8a">4&quot;/28&quot;</characteristic>
-                <characteristic name="7-8" typeId="695f-299c-7e58-f275">3</characteristic>
-                <characteristic name="4-6" typeId="e27c-135a-2199-2587">4</characteristic>
-                <characteristic name="0-3" typeId="7a70-c3bd-de13-ddd6">5</characteristic>
+                <characteristic name="6-7" typeId="695f-299c-7e58-f275">3</characteristic>
+                <characteristic name="3-5" typeId="e27c-135a-2199-2587">4</characteristic>
+                <characteristic name="0-2" typeId="7a70-c3bd-de13-ddd6">5</characteristic>
                 <characteristic name="Qualities" typeId="e2c3-64fe-0b86-9ca8">Indirect, Seismic, Suppressive,Turret</characteristic>
               </characteristics>
             </profile>
@@ -2651,7 +2651,7 @@ Additionally, the unit does not lose the On Lookout status if it makes a free Ad
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="96d6-3e10-1ddc-4b77" targetId="9588-4200-697f-615f"/>
         <categoryLink name="Commander" hidden="false" id="39d3-d6de-a3fc-e7fd" targetId="058b-06f1-5fc7-3c9a"/>
-        <categoryLink name="Infantry/Cavalry" hidden="false" id="eabd-0b63-5bf9-e6c9" targetId="763f-6d17-4a4b-c0df" type="categoryEntry">
+        <categoryLink name="Infantry/Cavalry" hidden="false" id="eabd-0b63-5bf9-e6c9" targetId="763f-6d17-4a4b-c0df">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="force" shared="true" id="ee75-430f-0988-723a" includeChildSelections="false"/>
             <constraint type="max" value="6" field="selections" scope="force" shared="true" id="9fed-e9e1-30aa-eed5" includeChildSelections="false"/>
@@ -2681,7 +2681,7 @@ Additionally, the unit does not lose the On Lookout status if it makes a free Ad
     </forceEntry>
     <forceEntry name="Commonwealth Bardiche auxiliary Battlegroup" id="6da9-8821-9946-ba3a" hidden="false">
       <categoryLinks>
-        <categoryLink name="Boons" hidden="false" id="5414-b6f3-fba2-3826" targetId="9588-4200-697f-615f" type="categoryEntry"/>
+        <categoryLink name="Boons" hidden="false" id="5414-b6f3-fba2-3826" targetId="9588-4200-697f-615f"/>
         <categoryLink name="Commander" hidden="false" id="7816-5b2f-ec06-1226" targetId="058b-06f1-5fc7-3c9a"/>
         <categoryLink name="Infantry" hidden="false" id="7443-5a77-c575-b599" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
@@ -2711,7 +2711,7 @@ Additionally, the unit does not lose the On Lookout status if it makes a free Ad
       <categoryLinks>
         <categoryLink name="Boons" hidden="false" id="5268-8c9d-746f-3ae5" targetId="9588-4200-697f-615f"/>
         <categoryLink name="Commander" hidden="false" id="8eed-604e-d05c-cefe" targetId="058b-06f1-5fc7-3c9a"/>
-        <categoryLink name="Infantry/Armour" hidden="false" id="bd6b-951b-9c66-4a4c" targetId="796d-5047-ce17-a6ab" type="categoryEntry">
+        <categoryLink name="Infantry/Armour" hidden="false" id="bd6b-951b-9c66-4a4c" targetId="796d-5047-ce17-a6ab">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="7fb5-068d-0283-ee69" includeChildSelections="false"/>
           </constraints>

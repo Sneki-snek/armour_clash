@@ -54,7 +54,12 @@
     <categoryEntry name="Teutonic Infantry" id="7326-b219-e807-4fca" hidden="false"/>
     <categoryEntry name="Tractor" id="a0a3-b1b7-dee2-c8c6" hidden="false"/>
     <categoryEntry name="Armour/Artillery" id="1a01-9a6d-4d44-aa8e" hidden="false"/>
-    <categoryEntry name="Armour" id="fb51-77d5-9062-8c08" hidden="false"/>
+    <categoryEntry name="Armour" id="fb51-77d5-9062-8c08" hidden="false">
+      <comment>for Commanders</comment>
+    </categoryEntry>
+    <categoryEntry name="Parent" id="836d-480a-6f6e-598e" hidden="false"/>
+    <categoryEntry name="Engine" id="8f52-9854-2299-cf1b" hidden="false"/>
+    <categoryEntry name="Fireteam" id="6f0b-d922-bf14-12ec" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry type="upgrade" import="false" name="Default Root Entry" hidden="false" id="default-entry">
@@ -260,7 +265,7 @@
       </characteristicTypes>
       <comment>weapons 5-15</comment>
     </profileType>
-    <profileType name="Type" id="7a22-daf6-b2f0-f622" hidden="false" sortIndex="7">
+    <profileType name="Type" id="7a22-daf6-b2f0-f622" hidden="false" sortIndex="8">
       <characteristicTypes>
         <characteristicType name="Range" id="0d60-0078-7134-d302"/>
         <characteristicType name="1-2" id="5043-ac06-9bc2-0585"/>
@@ -270,7 +275,7 @@
       </characteristicTypes>
       <comment>weapons 2-6</comment>
     </profileType>
-    <profileType name="Type" id="18f4-5886-b9e5-059c" hidden="false" sortIndex="8">
+    <profileType name="Type" id="18f4-5886-b9e5-059c" hidden="false" sortIndex="11">
       <characteristicTypes>
         <characteristicType name="Range" id="a374-7668-40e6-f109"/>
         <characteristicType name="10-11" id="0ce0-0ff9-2b4f-55e4"/>
@@ -285,7 +290,7 @@
         <characteristicType name="Effect" id="b7f2-49d8-a49a-0b0f"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Type" id="ab7a-1a7e-f58b-4565" hidden="false" sortIndex="6">
+    <profileType name="Type" id="ab7a-1a7e-f58b-4565" hidden="false" sortIndex="7">
       <characteristicTypes>
         <characteristicType name="Range" id="ae86-2a51-4bd0-5c8c"/>
         <characteristicType name="1-8" id="a2ba-36af-bed3-a679"/>
@@ -295,17 +300,17 @@
       </characteristicTypes>
       <comment>weapons 8-24</comment>
     </profileType>
-    <profileType name="Type" id="e5cb-a327-9927-e1c2" hidden="false" sortIndex="8">
+    <profileType name="Type" id="e5cb-a327-9927-e1c2" hidden="false" sortIndex="13">
       <characteristicTypes>
         <characteristicType name="Range" id="441f-d21a-ef2b-2c8a"/>
-        <characteristicType name="7-8" id="695f-299c-7e58-f275"/>
-        <characteristicType name="4-6" id="e27c-135a-2199-2587"/>
-        <characteristicType name="0-3" id="7a70-c3bd-de13-ddd6"/>
+        <characteristicType name="6-7" id="695f-299c-7e58-f275"/>
+        <characteristicType name="3-5" id="e27c-135a-2199-2587"/>
+        <characteristicType name="0-2" id="7a70-c3bd-de13-ddd6"/>
         <characteristicType name="Qualities" id="e2c3-64fe-0b86-9ca8"/>
       </characteristicTypes>
-      <comment>weapons Behemoth 0-8</comment>
+      <comment>weapons Behemoth 0-7</comment>
     </profileType>
-    <profileType name="Type" id="ee3c-551f-76af-1003" hidden="false" sortIndex="8">
+    <profileType name="Type" id="ee3c-551f-76af-1003" hidden="false" sortIndex="10">
       <characteristicTypes>
         <characteristicType name="Range" id="2701-5c54-f68b-b5db"/>
         <characteristicType name="10-15" id="af3b-7f79-4aa9-20d4"/>
@@ -315,56 +320,41 @@
       </characteristicTypes>
       <comment>weapons Behemoth 0-15</comment>
     </profileType>
+    <profileType name="Type" id="e268-4591-0098-0605" hidden="false" sortIndex="12">
+      <characteristicTypes>
+        <characteristicType name="Range" id="5bf6-fd07-7b49-fa88"/>
+        <characteristicType name="7-8" id="e53c-163c-99e4-0d11"/>
+        <characteristicType name="4-6" id="15cc-83fc-47e9-cbfc"/>
+        <characteristicType name="0-3" id="9457-e067-5c45-6dc7"/>
+        <characteristicType name="Qualities" id="e367-7cf4-db1a-9f8a"/>
+      </characteristicTypes>
+      <comment>weapons Behemoth 0-8</comment>
+    </profileType>
+    <profileType name="Type" id="49bd-938b-4cd1-be02" hidden="false" sortIndex="14">
+      <characteristicTypes>
+        <characteristicType name="Range" id="1d41-6aea-8eff-6c42"/>
+        <characteristicType name="5-6" id="03c2-7494-d471-434c"/>
+        <characteristicType name="3-4" id="28f5-0175-feef-38b6"/>
+        <characteristicType name="0-2" id="4ec6-ec07-b2fa-c22a"/>
+        <characteristicType name="Qualities" id="1126-81e3-c3b1-ae92"/>
+      </characteristicTypes>
+      <comment>weapons Behemoth 0-6</comment>
+    </profileType>
+    <profileType name="Type" id="b294-e6dd-21de-b304" hidden="false" sortIndex="15">
+      <characteristicTypes>
+        <characteristicType name="Range" id="1ef4-25e1-dabb-4366"/>
+        <characteristicType name="1" id="47f8-07bb-9d00-11ff"/>
+        <characteristicType name="N/A" id="bb38-45b7-8bc6-5634"/>
+        <characteristicType name="N/A" id="172d-3b2f-afb6-9286"/>
+        <characteristicType name="Qualities" id="afc3-d5f4-dacf-4f41"/>
+      </characteristicTypes>
+      <comment>weapons 1</comment>
+    </profileType>
   </profileTypes>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Basic" hidden="false" id="f088-e6d4-8fe3-0f3e">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f055-960b-00a0-6c19" includeChildSelections="false"/>
-      </constraints>
-      <modifierGroups>
-        <modifierGroup type="and">
-          <modifiers>
-            <modifier type="add" value="80e8-8985-aa05-621f" field="category">
-              <conditions>
-                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="f088-e6d4-8fe3-0f3e" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </modifierGroup>
-      </modifierGroups>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Reinforced" hidden="false" id="85c2-43ee-a668-834f">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67b4-3814-fd8a-aa64" includeChildSelections="false"/>
-      </constraints>
-      <modifierGroups>
-        <modifierGroup type="and">
-          <modifiers>
-            <modifier type="add" value="da87-1be1-dffe-bd40" field="category">
-              <conditions>
-                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="85c2-43ee-a668-834f" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </modifierGroup>
-      </modifierGroups>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Full Strength" hidden="false" id="e86e-71e1-9396-5526">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c7b-c4c6-888b-0884" includeChildSelections="false"/>
-      </constraints>
-      <modifierGroups>
-        <modifierGroup type="and">
-          <modifiers>
-            <modifier type="add" value="6b22-841a-c6e4-d802" field="category">
-              <conditions>
-                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="e86e-71e1-9396-5526" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </modifierGroup>
-      </modifierGroups>
-    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Basic" hidden="false" id="f088-e6d4-8fe3-0f3e"/>
+    <selectionEntry type="upgrade" import="true" name="Reinforced" hidden="false" id="85c2-43ee-a668-834f"/>
+    <selectionEntry type="upgrade" import="true" name="Full Strength" hidden="false" id="e86e-71e1-9396-5526"/>
   </sharedSelectionEntries>
   <costTypes>
     <costType name="Points" id="e58e-982d-7630-5342" defaultCostLimit="-1"/>

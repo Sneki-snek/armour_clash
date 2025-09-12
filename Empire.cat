@@ -40,30 +40,30 @@
     </forceEntry>
     <forceEntry name="Canglong Guardian Auxiliary Battlegroup" id="bbc0-6a5e-83e1-c5c1" hidden="false" sortIndex="2">
       <categoryLinks>
-        <categoryLink name="Boons" hidden="false" id="e0f6-58cb-b2f7-3eb4" targetId="9588-4200-697f-615f" type="categoryEntry"/>
-        <categoryLink name="Commander" hidden="false" id="4830-0ce2-0b33-8222" targetId="058b-06f1-5fc7-3c9a" type="categoryEntry"/>
-        <categoryLink name="Infantry" hidden="false" id="9f23-12c9-9f84-df96" targetId="92f8-9d17-dd4d-a5ac" type="categoryEntry">
+        <categoryLink name="Boons" hidden="false" id="e0f6-58cb-b2f7-3eb4" targetId="9588-4200-697f-615f"/>
+        <categoryLink name="Commander" hidden="false" id="4830-0ce2-0b33-8222" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Infantry" hidden="false" id="9f23-12c9-9f84-df96" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="force" shared="true" id="1199-0648-cd12-5175" includeChildSelections="false"/>
             <constraint type="max" value="4" field="selections" scope="force" shared="true" id="4d65-b847-acf4-4754" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Cavalry" hidden="false" id="9fa8-fcae-c917-dfc6" targetId="d257-b36f-8e15-2d9b" type="categoryEntry">
+        <categoryLink name="Cavalry" hidden="false" id="9fa8-fcae-c917-dfc6" targetId="d257-b36f-8e15-2d9b">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="force" shared="true" id="65fc-6800-da16-50d3" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Field Gun" hidden="false" id="18b8-2f6d-f9a2-f455" targetId="6e6a-9613-0607-95e1" type="categoryEntry">
+        <categoryLink name="Field Gun" hidden="false" id="18b8-2f6d-f9a2-f455" targetId="6e6a-9613-0607-95e1">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1efe-095d-e708-6c5d" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Armour" hidden="false" id="3528-2bc0-b448-b64c" targetId="2c1d-3a57-3871-f158" type="categoryEntry">
+        <categoryLink name="Armour" hidden="false" id="3528-2bc0-b448-b64c" targetId="2c1d-3a57-3871-f158">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="7224-7880-6209-6b32" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Artillery" hidden="false" id="fc52-e95b-5b79-a56a" targetId="3d8a-88d7-d75b-191d" type="categoryEntry">
+        <categoryLink name="Artillery" hidden="false" id="fc52-e95b-5b79-a56a" targetId="3d8a-88d7-d75b-191d">
           <constraints>
             <constraint type="max" value="3" field="selections" scope="force" shared="true" id="c4d2-8241-1d92-8339" includeChildSelections="false"/>
           </constraints>
@@ -72,20 +72,20 @@
     </forceEntry>
     <forceEntry name="Baihu Strike Formation Auxiliary Battlegroup" id="ffdd-f693-a84d-a1ca" hidden="false" sortIndex="3">
       <categoryLinks>
-        <categoryLink name="Boons" hidden="false" id="926a-f32e-2758-4cc4" targetId="9588-4200-697f-615f" type="categoryEntry"/>
-        <categoryLink name="Commander" hidden="false" id="29cb-40eb-b67c-2b95" targetId="058b-06f1-5fc7-3c9a" type="categoryEntry"/>
-        <categoryLink name="Infantry" hidden="false" id="a076-cd05-048b-e8c2" targetId="92f8-9d17-dd4d-a5ac" type="categoryEntry">
+        <categoryLink name="Boons" hidden="false" id="926a-f32e-2758-4cc4" targetId="9588-4200-697f-615f"/>
+        <categoryLink name="Commander" hidden="false" id="29cb-40eb-b67c-2b95" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Infantry" hidden="false" id="a076-cd05-048b-e8c2" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="force" shared="true" id="22e7-3f72-e4e2-1593" includeChildSelections="false"/>
             <constraint type="max" value="4" field="selections" scope="force" shared="true" id="3c4b-1084-e99e-9595" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Cavalry/Armour" hidden="false" id="0aad-f202-0a55-fa08" targetId="a1a3-9cbc-d8e8-ee0c" type="categoryEntry">
+        <categoryLink name="Cavalry/Armour" hidden="false" id="0aad-f202-0a55-fa08" targetId="a1a3-9cbc-d8e8-ee0c">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="force" shared="true" id="e405-b04a-5d20-49e1" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Aircraft" hidden="false" id="09d5-98c7-1001-5bc0" targetId="554f-0054-70cc-dc43" type="categoryEntry">
+        <categoryLink name="Aircraft" hidden="false" id="09d5-98c7-1001-5bc0" targetId="554f-0054-70cc-dc43">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0715-2d9d-2e7f-5c4f" includeChildSelections="false"/>
           </constraints>
@@ -94,7 +94,7 @@
     </forceEntry>
     <forceEntry name="Empire Super-Heavy Auxiliary Battlegroup" id="d650-b893-9963-2882" hidden="false" sortIndex="4">
       <categoryLinks>
-        <categoryLink name="Behemoth" hidden="false" id="c30a-3f1e-cc29-909c" targetId="26dd-e4ab-0a91-096a" type="categoryEntry">
+        <categoryLink name="Behemoth" hidden="false" id="c30a-3f1e-cc29-909c" targetId="26dd-e4ab-0a91-096a">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c36b-3c82-6f02-5892"/>
           </constraints>
@@ -206,7 +206,7 @@ If they do so, this  Close Quarters Attack is made with the Devastating weapon
           <profiles>
             <profile name="Enhanced Alchemy" typeId="3f77-4198-5794-9684" typeName="Boons" hidden="false" id="b0a5-49b3-782f-4867">
               <characteristics>
-                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Clash, at the start of a Round, the General can declare that they will use this Boon. Until the end of the Round, the effective range (X”) of any Obfuscating and Corrosive Fumes special rules belonging to their units is increased by 2”. </characteristic>
+                <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">Once per Clash, at the start of a Round, the General can declare that they will use this Boon. Until the end of the Round, the effective range (X”) of any Obfuscating and Corrosive Fumes special rules belonging to their units is increased by 2”.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2785,7 +2785,7 @@ This is intentional!</characteristic>
         <categoryLink targetId="6aad-4085-608f-dc2f" id="1872-f909-cbdc-5cbe" primary="false" name="Heavy"/>
         <categoryLink targetId="26dd-e4ab-0a91-096a" id="2068-9d80-b21e-313e" primary="false" name="Behemoth"/>
         <categoryLink targetId="058b-06f1-5fc7-3c9a" id="8e3c-5821-1e05-d10a" primary="true" name="Commander"/>
-        <categoryLink targetId="c6c6-d684-5f84-f663" id="38e2-1bbf-24f4-2db5" primary="false" name="Armour"/>
+        <categoryLink targetId="fb51-77d5-9062-8c08" id="3efb-c953-e6ed-a6e8" primary="false" name="Armour"/>
       </categoryLinks>
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="176e-fad3-84dc-fb41" noindex="true">

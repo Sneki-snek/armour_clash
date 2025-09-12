@@ -1109,6 +1109,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Fortification" hidden="false" id="5768-11bd-0382-0a60" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Union" hidden="false" id="7325-09ca-fb3e-2e4f" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="fa20-0116-0ebc-c3d7" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="7d70-5654-c356-60f2" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
@@ -1171,6 +1172,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Fortification" hidden="false" id="20f4-f716-a5ba-8d5e" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Union" hidden="false" id="b8a9-2421-83f5-d0f5" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="fb42-9dd8-12b2-4063" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="8574-bf0f-a57c-ec6a" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
@@ -1233,6 +1235,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Fortification" hidden="false" id="e3d7-3288-3d73-5293" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Union" hidden="false" id="174a-12dc-cd55-7660" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="b79c-5599-027b-d64b" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="9407-633b-27e3-db64" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
@@ -1287,6 +1290,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Union" hidden="false" id="ac02-dae6-28e9-e005" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="92ae-6c1c-7936-b093" targetId="6aad-4085-608f-dc2f" primary="false"/>
                         <categoryLink name="Transport" hidden="false" id="ab4f-b188-5f86-e614" targetId="d78d-8ed7-fc30-5981" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="76e8-8aac-245e-8a56" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
@@ -1340,6 +1344,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Union" hidden="false" id="1a71-abe5-9219-864f" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Fortification" hidden="false" id="a4f6-d7ad-bd41-e584" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="7f6e-e06c-1235-a169" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="4e92-493f-b941-4ea9" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="55"/>
@@ -1435,6 +1440,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Fortification" hidden="false" id="d769-d0f5-bfcf-4092" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Union" hidden="false" id="160f-29cc-70a8-e441" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="55b0-74f1-44ae-8ee9" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="02af-2ac9-59ec-e40a" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
@@ -1497,6 +1503,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Fortification" hidden="false" id="fbee-4547-2e7f-3e82" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Union" hidden="false" id="5cb9-945f-4880-15b5" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="5650-0bc6-eed6-c636" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="8186-dc5d-02b4-4226" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
@@ -1559,6 +1566,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Fortification" hidden="false" id="a757-289a-b4e3-04ec" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Union" hidden="false" id="8bb0-2d40-88da-9848" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="f32b-c93b-41b9-e0a7" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="bd1b-f1e8-5328-b0fb" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
@@ -1613,6 +1621,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Union" hidden="false" id="88e6-d625-4002-68cb" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="df31-7d45-8c9c-69e2" targetId="6aad-4085-608f-dc2f" primary="false"/>
                         <categoryLink name="Transport" hidden="false" id="ef55-3411-f2e2-6aaa" targetId="d78d-8ed7-fc30-5981" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="2786-55b4-8c65-999d" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
@@ -1666,6 +1675,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Union" hidden="false" id="111e-0df2-eec7-f807" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Fortification" hidden="false" id="130c-8e8c-6593-92ce" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="74ae-021f-075d-a21d" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="1311-bd6f-7c3b-7012" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="55"/>
@@ -1761,6 +1771,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Fortification" hidden="false" id="9ba9-5c58-969c-1f7b" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Union" hidden="false" id="8a54-3658-199b-35a8" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="1c9f-fd5c-0d63-78fc" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="e9f4-d1a6-f554-e800" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
@@ -1823,6 +1834,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Fortification" hidden="false" id="14c2-e6a2-aa11-088a" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Union" hidden="false" id="32a0-8f98-9d85-ff20" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="7209-d190-e862-2d24" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="41aa-910f-594f-1505" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
@@ -1885,6 +1897,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Fortification" hidden="false" id="2455-ef1c-0dc0-7ca5" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Union" hidden="false" id="c1db-ccec-c699-6b08" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="d506-ec5e-2314-a007" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="0f8e-d346-cb00-cd3b" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
@@ -1939,6 +1952,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Union" hidden="false" id="dd8a-ca6c-a3b6-79a0" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="b4db-8652-119b-83e1" targetId="6aad-4085-608f-dc2f" primary="false"/>
                         <categoryLink name="Transport" hidden="false" id="1532-c315-2adf-609d" targetId="d78d-8ed7-fc30-5981" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="8c64-7761-0b08-387d" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
@@ -1992,6 +2006,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Union" hidden="false" id="e079-1322-97cf-880d" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Fortification" hidden="false" id="c7e8-466e-11a9-4cdb" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="31c5-644f-4ec3-81b7" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="50a5-bab6-666c-2d34" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="55"/>
@@ -4327,6 +4342,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Fortification" hidden="false" id="0bc1-4cc0-bcff-271a" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Union" hidden="false" id="84e3-109a-ff51-bc3f" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="4c55-6b1d-79b0-d170" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="5660-6952-65ab-cc9d" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
@@ -4389,6 +4405,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Fortification" hidden="false" id="3c0a-2ed1-7ef9-7b5d" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Union" hidden="false" id="4e14-73f6-fecb-beb8" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="6a34-b126-33a8-f814" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="1e58-209f-5214-2134" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
@@ -4451,6 +4468,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Fortification" hidden="false" id="9307-b305-cbfd-c525" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Union" hidden="false" id="8532-a71f-adfd-a320" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="be80-a1eb-13a0-c7a6" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="53d0-40b3-a8f9-d03f" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
@@ -4505,6 +4523,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Union" hidden="false" id="a696-d395-3e7a-e672" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="e6ee-ca0c-bd4b-0e56" targetId="6aad-4085-608f-dc2f" primary="false"/>
                         <categoryLink name="Transport" hidden="false" id="00f1-21e0-5fed-9f3a" targetId="d78d-8ed7-fc30-5981" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="0049-a8ab-1715-9194" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
@@ -4558,6 +4577,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Union" hidden="false" id="7bd9-9f31-de16-2515" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Fortification" hidden="false" id="7f80-067d-7f76-11e5" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="0487-c055-9311-8532" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="d547-980f-d233-723c" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="55"/>
@@ -4653,6 +4673,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Fortification" hidden="false" id="c283-d4c7-034b-053b" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Union" hidden="false" id="269e-88e9-74f9-587b" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="1531-2dcf-a303-c5f9" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="5e5b-09a8-77a4-2adc" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
@@ -4715,6 +4736,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Fortification" hidden="false" id="a7ed-bc0f-16a5-597a" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Union" hidden="false" id="b6c3-cd5c-6d2a-3e42" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="c411-ae1d-4c8f-8952" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="55fc-3754-4eab-a3a9" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
@@ -4777,6 +4799,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Fortification" hidden="false" id="8bb9-bb6c-42eb-dd5c" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Union" hidden="false" id="1119-c084-c4a1-5a0b" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="3090-72b5-8119-0038" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="1501-ce01-4d06-4f99" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
@@ -4831,6 +4854,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Union" hidden="false" id="cf9d-263c-7616-3c62" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="30d1-ccfb-6d97-71a1" targetId="6aad-4085-608f-dc2f" primary="false"/>
                         <categoryLink name="Transport" hidden="false" id="0e51-8093-89f7-f4d6" targetId="d78d-8ed7-fc30-5981" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="06e9-acd0-cef6-1de2" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
@@ -4884,6 +4908,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Union" hidden="false" id="9225-d67a-3be3-8025" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Fortification" hidden="false" id="e425-1cac-9328-ee17" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="74b0-4c76-6147-7def" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="99fa-d59d-2cf9-81da" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="55"/>
@@ -4979,6 +5004,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Fortification" hidden="false" id="6836-f0e6-e854-48fc" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Union" hidden="false" id="ccc6-4a5c-7363-f1bb" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="49f3-52e4-ca3a-4049" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="df96-878f-fe27-5853" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="80"/>
@@ -5041,6 +5067,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Fortification" hidden="false" id="d553-7e11-c480-9ffb" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Union" hidden="false" id="0ee7-ba4a-ddb3-d0b8" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="8f74-9385-8450-8387" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="5c38-c385-ba6a-9ce7" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="85"/>
@@ -5103,6 +5130,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Fortification" hidden="false" id="c1d0-f249-4b8b-df60" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Union" hidden="false" id="273d-9750-314c-4544" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="f9d7-fd36-df9d-65e7" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="80d9-fba5-c9db-486f" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="75"/>
@@ -5157,6 +5185,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Union" hidden="false" id="0107-f97d-9184-b372" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="d913-c6cc-bf3e-5788" targetId="6aad-4085-608f-dc2f" primary="false"/>
                         <categoryLink name="Transport" hidden="false" id="2372-534d-aa17-e150" targetId="d78d-8ed7-fc30-5981" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="da93-addd-88bb-8598" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="65"/>
@@ -5210,6 +5239,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                         <categoryLink name="Union" hidden="false" id="8753-540c-e8fd-ca85" targetId="a412-ee13-0709-09cf" primary="false"/>
                         <categoryLink name="Fortification" hidden="false" id="6124-722d-558a-164c" targetId="41d4-e90f-729f-92b9" primary="false"/>
                         <categoryLink name="Heavy" hidden="false" id="8806-aacb-75bc-9ad8" targetId="6aad-4085-608f-dc2f" primary="false"/>
+                        <categoryLink targetId="d388-ba92-2ee2-c8cc" id="b695-bcbc-73f0-e0d8" primary="false" name="Carriage"/>
                       </categoryLinks>
                       <costs>
                         <cost name="Points" typeId="e58e-982d-7630-5342" value="55"/>

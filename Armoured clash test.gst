@@ -60,6 +60,7 @@
     <categoryEntry name="Parent" id="836d-480a-6f6e-598e" hidden="false"/>
     <categoryEntry name="Engine" id="8f52-9854-2299-cf1b" hidden="false"/>
     <categoryEntry name="Fireteam" id="6f0b-d922-bf14-12ec" hidden="false"/>
+    <categoryEntry name="Carriage" id="d388-ba92-2ee2-c8cc" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry type="upgrade" import="false" name="Default Root Entry" hidden="false" id="default-entry">

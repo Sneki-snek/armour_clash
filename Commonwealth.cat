@@ -12,7 +12,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="d557-1243-80f8-daba" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d"/>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -439,7 +439,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="7dc2-e8ef-45b0-3bb9" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Hit and Run (5”), Irregular, Vanguard (8”)</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Hit &amp; Run (5”), Irregular, Vanguard (8”)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -543,7 +543,7 @@
                 <characteristic name="1-5" typeId="6c2b-399d-3913-0c86">4</characteristic>
                 <characteristic name="6-10" typeId="e030-39ed-b345-ffd8">9</characteristic>
                 <characteristic name="11-15" typeId="3341-bdc5-ce8f-a06f">14</characteristic>
-                <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">Devestating, Precision, Turret</characteristic>
+                <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">Devastating, Precision, Turret</characteristic>
               </characteristics>
             </profile>
             <profile name="Ranged (Heavy)" typeId="055e-da65-5a34-6a56" typeName="Type" hidden="false" id="da1e-8102-1528-330f">
@@ -552,7 +552,7 @@
                 <characteristic name="1-5" typeId="6c2b-399d-3913-0c86">4</characteristic>
                 <characteristic name="6-10" typeId="e030-39ed-b345-ffd8">9</characteristic>
                 <characteristic name="11-15" typeId="3341-bdc5-ce8f-a06f">14</characteristic>
-                <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">Devestating, Turret</characteristic>
+                <characteristic name="Qualities" typeId="e5a1-fc2f-d8b2-79b3">Devastating, Turret</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1103,7 +1103,7 @@
                 <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">5</characteristic>
                 <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">10</characteristic>
                 <characteristic name="9-12" typeId="df36-9d51-a316-8d54">15</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Indirect, Seismic, Supressive</characteristic>
+                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Indirect, Seismic, Suppressive</characteristic>
               </characteristics>
             </profile>
             <profile name="Ranged (Heavy)" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="1210-743b-f806-ef83">
@@ -1270,6 +1270,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Subterranean" id="925a-f10d-c31c-adc1" hidden="false" type="rule" targetId="ee55-da2d-3a6a-4bd3"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Krot Armoured Borers" hidden="false" id="09bb-a0d8-7118-e5b1" sortIndex="10">
       <categoryLinks>
@@ -1412,6 +1415,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Subterranean" id="dd73-d5a9-ee79-0b82" hidden="false" type="rule" targetId="ee55-da2d-3a6a-4bd3"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Tsar Battle Tanks" hidden="false" id="5718-b989-80f1-19a3" sortIndex="11">
       <categoryLinks>
@@ -2736,4 +2742,30 @@ Additionally, the unit does not lose the On Lookout status if it makes a free Ad
       </categoryLinks>
     </forceEntry>
   </forceEntries>
+  <rules>
+    <rule name="Subterranean" id="ee55-da2d-3a6a-4bd3" hidden="false">
+      <description>Commonwealth Forces can field Subterranean units.
+
+
+In the Deployment Step, all units with the Subterranean trait must be placed in Reserve.
+When a unit is placed in Reserve in this manner, their General must place a Subterranean Marker anywhere in their Deployment Zone.
+This Marker is treated as having the Vanguard (8”) special rule, but ignores all Terrain and enemy units when making its free Advance manoeuvre.
+After the Deploy Reserves Step of each Round, the General can choose to move any of these markers up to 8”, in a straight line, ignoring all Terrain and enemy units.
+A Subterranean Marker cannot end this move within the Footprint of another model or marker.
+Any units that a Subterranean Marker moves through must take a Suppression Test at the end of this move.
+Aircraft, Rotorcraft, and units with the Large special rule are unaffected.
+
+
+If a Subterranean Marker moves through a Defensible Building, its General must roll an Attack Die at the end of its move. If the die scores a Heroic Strike, place a Wrecked status token on the building - it can no longer be Garrisoned by units that do not have the Occupy special rule, and is treated as Blocking Terrain for the rest of the game. If there is a unit Garrisoning the building, it must make an immediate Exit manoeuvre (as described on page 43 of the Armoured Clash Rulebook).
+
+
+From the second Round onwards, a General may choose to Activate a Subterranean unit in Reserve.
+This unit is deployed onto the Battlefield so that it is within 3” of one of the General’s Subterranean Markers, with no models within 1” of any enemy units, Defensible Buildings or Strategic Objective Markers.
+
+
+Note that Subterranean Markers are not tied to any particular unit, so any Subterranean unit that is still in Reserve can enter the Battlefield from any Subterranean Marker.
+The Subterranean Marker is immediately removed from the battlefield and the unit Activates as normal.
+Subterranean units cannot be deployed in the final round of a Clash. Any Subterranean units that are still in Reserve at this point will take no part in the battle.</description>
+    </rule>
+  </rules>
 </catalogue>

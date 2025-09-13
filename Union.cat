@@ -155,9 +155,7 @@ If they do, they score;
 3 if it was Full-Strength.
 
 
-If they do this, they cannot claim any Conquest Objectives for Annihilating the unit. 
-
-</characteristic>
+If they do this, they cannot claim any Conquest Objectives for Annihilating the unit.</characteristic>
               </characteristics>
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
@@ -5430,7 +5428,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
                 <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">5</characteristic>
                 <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">9</characteristic>
                 <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">13</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Supressive, Torrent</characteristic>
+                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Suppressive, Torrent</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6570,7 +6568,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="3dc4-b7d7-9f3e-6f4d" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Fiery Demise (3), Flying, Hothead, Supercharger</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Fiery Demise (3), Flying, Hot Headed, Supercharger</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7275,35 +7273,35 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
   <forceEntries>
     <forceEntry name="Union Faction Battlegroup" id="84ba-b491-5e71-9b8e" hidden="false" sortIndex="1">
       <categoryLinks>
-        <categoryLink name="Boons" hidden="false" id="a7ff-f897-491f-d68b" targetId="9588-4200-697f-615f" type="categoryEntry"/>
-        <categoryLink name="Commander" hidden="false" id="e69b-cd96-19a1-375c" targetId="058b-06f1-5fc7-3c9a" type="categoryEntry"/>
-        <categoryLink name="Infantry" hidden="false" id="ddb8-f7e5-76ee-e864" targetId="92f8-9d17-dd4d-a5ac" type="categoryEntry">
+        <categoryLink name="Boons" hidden="false" id="a7ff-f897-491f-d68b" targetId="9588-4200-697f-615f"/>
+        <categoryLink name="Commander" hidden="false" id="e69b-cd96-19a1-375c" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Infantry" hidden="false" id="ddb8-f7e5-76ee-e864" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
             <constraint type="max" value="3" field="selections" scope="force" shared="true" id="9fd0-5ec9-3527-532f" includeChildSelections="false"/>
             <constraint type="min" value="1" field="selections" scope="force" shared="true" id="0b0c-a666-7ee8-b7fa" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Cavalry" hidden="false" id="ea35-3f98-c6da-e38e" targetId="d257-b36f-8e15-2d9b" type="categoryEntry">
+        <categoryLink name="Cavalry" hidden="false" id="ea35-3f98-c6da-e38e" targetId="d257-b36f-8e15-2d9b">
           <constraints>
             <constraint type="max" value="3" field="selections" scope="force" shared="true" id="30e4-2027-118b-5586" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Field Gun" hidden="false" id="188a-cc11-fc7b-fcd1" targetId="6e6a-9613-0607-95e1" type="categoryEntry">
+        <categoryLink name="Field Gun" hidden="false" id="188a-cc11-fc7b-fcd1" targetId="6e6a-9613-0607-95e1">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="force" shared="true" id="62d8-2671-3673-5dba" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Armour" hidden="false" id="719d-2324-aec7-5327" targetId="2c1d-3a57-3871-f158" type="categoryEntry">
+        <categoryLink name="Armour" hidden="false" id="719d-2324-aec7-5327" targetId="2c1d-3a57-3871-f158">
           <constraints>
             <constraint type="max" value="5" field="selections" scope="force" shared="true" id="af58-7e20-c16d-dc79" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Artillery" hidden="false" id="8576-f916-335a-bf92" targetId="3d8a-88d7-d75b-191d" type="categoryEntry">
+        <categoryLink name="Artillery" hidden="false" id="8576-f916-335a-bf92" targetId="3d8a-88d7-d75b-191d">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="force" shared="true" id="cbf6-95f5-436f-8506" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Aircraft" hidden="false" id="7bee-8719-528a-b979" targetId="554f-0054-70cc-dc43" type="categoryEntry">
+        <categoryLink name="Aircraft" hidden="false" id="7bee-8719-528a-b979" targetId="554f-0054-70cc-dc43">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="force" shared="true" id="c78f-b56f-fec0-e6b0" includeChildSelections="false"/>
           </constraints>
@@ -7312,26 +7310,26 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
     </forceEntry>
     <forceEntry name="Manifest Destiny Auxiliary Battlegroup" id="9f8e-49ab-64b9-f4d4" hidden="false" sortIndex="2">
       <categoryLinks>
-        <categoryLink name="Boons" hidden="false" id="8d3a-db3c-4cef-d9a9" targetId="9588-4200-697f-615f" type="categoryEntry"/>
-        <categoryLink name="Commander" hidden="false" id="1235-adf0-69e3-689b" targetId="058b-06f1-5fc7-3c9a" type="categoryEntry"/>
-        <categoryLink name="Infantry" hidden="false" id="eecf-de3e-3e72-1259" targetId="92f8-9d17-dd4d-a5ac" type="categoryEntry">
+        <categoryLink name="Boons" hidden="false" id="8d3a-db3c-4cef-d9a9" targetId="9588-4200-697f-615f"/>
+        <categoryLink name="Commander" hidden="false" id="1235-adf0-69e3-689b" targetId="058b-06f1-5fc7-3c9a"/>
+        <categoryLink name="Infantry" hidden="false" id="eecf-de3e-3e72-1259" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="force" shared="true" id="d483-ea6e-323e-9058" includeChildSelections="false"/>
             <constraint type="max" value="3" field="selections" scope="force" shared="true" id="5840-75ca-14cf-2035" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Armour" hidden="false" id="350e-d6bf-210f-6b77" targetId="2c1d-3a57-3871-f158" type="categoryEntry">
+        <categoryLink name="Armour" hidden="false" id="350e-d6bf-210f-6b77" targetId="2c1d-3a57-3871-f158">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="force" shared="true" id="09da-fc03-b4cb-662e" includeChildSelections="false"/>
             <constraint type="max" value="6" field="selections" scope="force" shared="true" id="aa49-6615-7eb7-f689" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Cavalry" hidden="false" id="6c33-ab18-6f15-981e" targetId="d257-b36f-8e15-2d9b" type="categoryEntry">
+        <categoryLink name="Cavalry" hidden="false" id="6c33-ab18-6f15-981e" targetId="d257-b36f-8e15-2d9b">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="force" shared="true" id="d632-973d-45a9-bc2a" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Aircraft" hidden="false" id="10fd-5e87-bc90-e000" targetId="554f-0054-70cc-dc43" type="categoryEntry">
+        <categoryLink name="Aircraft" hidden="false" id="10fd-5e87-bc90-e000" targetId="554f-0054-70cc-dc43">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="force" shared="true" id="908c-513f-cf51-129a" includeChildSelections="false"/>
           </constraints>
@@ -7340,7 +7338,7 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
     </forceEntry>
     <forceEntry name="Shock &amp; Awe Auxiliary Battlegroup" id="de5c-0287-e275-8456" hidden="false" sortIndex="3">
       <categoryLinks>
-        <categoryLink name="Boons" hidden="false" id="dc30-358c-dc35-e649" targetId="9588-4200-697f-615f" type="categoryEntry"/>
+        <categoryLink name="Boons" hidden="false" id="dc30-358c-dc35-e649" targetId="9588-4200-697f-615f"/>
         <categoryLink name="Commander" hidden="false" id="7d2a-db60-760c-3732" targetId="058b-06f1-5fc7-3c9a"/>
         <categoryLink name="Infantry" hidden="false" id="f5ed-74bb-eb3d-2cdb" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
@@ -7373,8 +7371,8 @@ If the Command is successfully issued, the unit ignores the presence of enemy un
     </forceEntry>
     <forceEntry name="Heavy Rail Auxiliary Battlegroup" id="cdd3-a7b7-ef0b-f1a7" hidden="false" sortIndex="4">
       <categoryLinks>
-        <categoryLink name="Boons" hidden="false" id="89ed-2fdb-fe99-a16e" targetId="9588-4200-697f-615f" type="categoryEntry"/>
-        <categoryLink name="Engine" hidden="false" id="dc86-b584-4b45-41f6" targetId="8f52-9854-2299-cf1b" type="categoryEntry">
+        <categoryLink name="Boons" hidden="false" id="89ed-2fdb-fe99-a16e" targetId="9588-4200-697f-615f"/>
+        <categoryLink name="Engine" hidden="false" id="dc86-b584-4b45-41f6" targetId="8f52-9854-2299-cf1b">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f529-6b27-fc39-9cdb"/>
           </constraints>

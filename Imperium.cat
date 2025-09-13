@@ -288,7 +288,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="6636-a185-1459-05d9" noindex="true">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d"/>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -420,9 +420,9 @@
         <categoryLink targetId="92f8-9d17-dd4d-a5ac" id="1ed8-f09e-75c6-6fc7" primary="true" name="Infantry"/>
       </categoryLinks>
       <profiles>
-        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="6580-586b-8ef6-75a3" noindex="true">
+        <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="6580-586b-8ef6-75a3" noindex="false">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d"/>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -815,7 +815,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="8d54-8097-4509-e837" noindex="true">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Stalker</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Stalkers</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -958,7 +958,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="0a0f-7b86-ec1f-8ab1" noindex="true">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Stalker</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Stalkers</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1755,7 +1755,7 @@
                 <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">7</characteristic>
                 <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">10</characteristic>
                 <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">14</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Torrent, Supressive</characteristic>
+                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Torrent, Suppressive</characteristic>
               </characteristics>
             </profile>
             <profile name="Melee" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="e13b-c2b7-ab21-033f">
@@ -1764,7 +1764,7 @@
                 <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">3</characteristic>
                 <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">6</characteristic>
                 <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">9</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Supressive</characteristic>
+                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Suppressive</characteristic>
               </characteristics>
             </profile>
             <profile name="Ranged (Heavy)" typeId="7a22-daf6-b2f0-f622" typeName="Type" hidden="false" id="3b6d-0bc4-d540-5c65">
@@ -1773,7 +1773,7 @@
                 <characteristic name="1-2" typeId="5043-ac06-9bc2-0585">5</characteristic>
                 <characteristic name="3-4" typeId="8394-18d6-22d8-e03c">8</characteristic>
                 <characteristic name="5-6" typeId="7a86-7632-65f7-3c3d">11</characteristic>
-                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Torrent, Supressive</characteristic>
+                <characteristic name="Qualities" typeId="1569-2922-0e92-737b">Torrent, Suppressive</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3120,7 +3120,7 @@ If the command is successfully issued, the unit increases its Speed by 2” when
               <characteristics>
                 <characteristic name="Effect" typeId="b7f2-49d8-a49a-0b0f">When a Discipline Test is made for an Imperium unit in this Force, it gains a +1 Discipline modifier for each other friendly Imperium unit within 3” of it.
 
-Do not count units that are Suppressed or Embarked on Transport units. </characteristic>
+Do not count units that are Suppressed or Embarked on Transport units.</characteristic>
               </characteristics>
               <modifiers>
                 <modifier type="set" value="true" field="hidden">

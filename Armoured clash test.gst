@@ -361,6 +361,6 @@
     <costType name="Points" id="e58e-982d-7630-5342" defaultCostLimit="-1"/>
   </costTypes>
   <publications>
-    <publication name="sneks" id="9bca-dc9c-555f-6458" hidden="false" publisherUrl="https://github.com/Sneki-snek/armour_clash" publisher="snek"/>
+    <publication name="Sneki_Snek" id="9bca-dc9c-555f-6458" hidden="false" publisherUrl="https://github.com/Sneki-snek/Armoured_Clash" publisher="snekI_Snek"/>
   </publications>
 </gameSystem>

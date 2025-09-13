@@ -680,7 +680,7 @@ This is intentional!</characteristic>
                 <characteristic name="1-4" typeId="94b3-2e14-1b71-6757">7</characteristic>
                 <characteristic name="5-8" typeId="f891-f62d-9222-6a4f">11</characteristic>
                 <characteristic name="9-12" typeId="df36-9d51-a316-8d54">15</characteristic>
-                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Torrent, Supressive</characteristic>
+                <characteristic name="Qualities" typeId="9a3f-8a28-e735-e1eb">Torrent, Suppressive</characteristic>
               </characteristics>
             </profile>
             <profile name="Melee" typeId="344a-022d-aebf-7e7a" typeName="Type" hidden="false" id="6c34-d60e-ecbb-4bca">

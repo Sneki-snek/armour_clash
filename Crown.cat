@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="d3b8-847e-c586-7f11" name="Crown" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="d3b8-847e-c586-7f11" name="Crown" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Rifle command platoon" hidden="false" id="779c-674b-cdc0-4464" sortIndex="1">
       <categoryLinks>
@@ -739,7 +739,7 @@
             </entryLink>
             <entryLink import="true" name="Full Strength" hidden="false" id="33ee-d06b-f693-6755" type="selectionEntry" targetId="e86e-71e1-9396-5526" sortIndex="3">
               <profiles>
-                <profile name="Rifle command platoon" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="5865-af27-f0ac-ea5e">
+                <profile name="Rifle platoon" typeId="54fb-c9ab-bd93-b093" typeName="Basic unit" hidden="false" id="5865-af27-f0ac-ea5e">
                   <characteristics>
                     <characteristic name="Target type" typeId="de47-7191-892f-3c71">Light</characteristic>
                     <characteristic name="Size" typeId="eaf4-4c58-3d0c-1b66">1</characteristic>
@@ -2874,7 +2874,7 @@ This is intentional!</characteristic>
   <forceEntries>
     <forceEntry name="Crown Faction Battlegroup" id="f353-6a14-0887-e50c" hidden="false" sortIndex="1">
       <categoryLinks>
-        <categoryLink name="Boons" hidden="false" id="4b42-8b0a-ce58-0adf" targetId="9588-4200-697f-615f" type="categoryEntry"/>
+        <categoryLink name="Boons" hidden="false" id="4b42-8b0a-ce58-0adf" targetId="9588-4200-697f-615f"/>
         <categoryLink name="Commander" hidden="false" id="1627-6672-0964-6ede" targetId="058b-06f1-5fc7-3c9a"/>
         <categoryLink name="Infantry" hidden="false" id="8e60-c4a2-5ed6-96d0" targetId="92f8-9d17-dd4d-a5ac">
           <constraints>
@@ -2919,7 +2919,7 @@ This is intentional!</characteristic>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5fe0-19c4-43fd-9219"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Cavalry/Armour" hidden="false" id="4835-7c29-82c8-0e48" targetId="a1a3-9cbc-d8e8-ee0c" type="categoryEntry">
+        <categoryLink name="Cavalry/Armour" hidden="false" id="4835-7c29-82c8-0e48" targetId="a1a3-9cbc-d8e8-ee0c">
           <constraints>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="84f2-dfe0-6d21-4965"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a8ed-99ae-8ae3-b58a"/>
@@ -2943,13 +2943,13 @@ This is intentional!</characteristic>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="1f72-ae03-7b58-f433"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Field Guns/Artillery" hidden="false" id="0756-abde-1488-14b3" targetId="e513-34a4-b72e-9f19" type="categoryEntry">
+        <categoryLink name="Field Guns/Artillery" hidden="false" id="0756-abde-1488-14b3" targetId="e513-34a4-b72e-9f19">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fc4b-2eaa-a378-6606"/>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0507-d154-a93c-c728"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Infantry/Cavalry" hidden="false" id="e7ea-7ffc-64ba-f50a" targetId="763f-6d17-4a4b-c0df" type="categoryEntry">
+        <categoryLink name="Infantry/Cavalry" hidden="false" id="e7ea-7ffc-64ba-f50a" targetId="763f-6d17-4a4b-c0df">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="931b-9965-bb40-e148"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9514-30d9-9b67-4248"/>
@@ -2959,7 +2959,7 @@ This is intentional!</characteristic>
     </forceEntry>
     <forceEntry name="Crown Super-Heavy Auxiliary Battlegroup" id="a809-8976-9c8a-3a13" hidden="false" sortIndex="4">
       <categoryLinks>
-        <categoryLink name="Boons" hidden="false" id="7f51-df36-563a-c292" targetId="9588-4200-697f-615f" type="categoryEntry"/>
+        <categoryLink name="Boons" hidden="false" id="7f51-df36-563a-c292" targetId="9588-4200-697f-615f"/>
         <categoryLink name="Behemoth" hidden="false" id="0a41-418d-ca20-ec05" targetId="26dd-e4ab-0a91-096a">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="72cd-6b92-e54f-7631-min"/>

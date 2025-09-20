@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="d3b8-847e-c586-7f11" name="Crown" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="d3b8-847e-c586-7f11" name="Crown" gameSystemId="sys-e850-e7dd-b6e5-f6c0" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Rifle command platoon" hidden="false" id="779c-674b-cdc0-4464" sortIndex="1">
       <categoryLinks>
@@ -436,7 +436,7 @@
       <profiles>
         <profile name="Special Rules" typeId="f593-22ac-8878-8d77" typeName="Special Rules" hidden="false" id="dea3-b07a-1147-dea4" noindex="true">
           <characteristics>
-            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Occupy, Spotters, Storming Party</characteristic>
+            <characteristic name="Special Rules" typeId="daea-c58a-dc2c-ad5d">Irregular, Pioneers, Shrouded, Stalkers, Vanguard (8”)</characteristic>
           </characteristics>
         </profile>
       </profiles>

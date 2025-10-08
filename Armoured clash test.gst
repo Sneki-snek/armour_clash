@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-e850-e7dd-b6e5-f6c0" name="Armoured_Clash-Main-Snek" battleScribeVersion="2.03" revision="2" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-e850-e7dd-b6e5-f6c0" name="Armoured_Clash-Main-Snek" battleScribeVersion="2.03" revision="3" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Light" id="default-category"/>
     <categoryEntry name="Heavy" id="6aad-4085-608f-dc2f" hidden="false"/>
@@ -220,7 +220,7 @@
         <characteristicType name="Break Limit" id="e0f3-cfb5-7ab1-549a"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Special Rules" id="f593-22ac-8878-8d77" hidden="false" sortIndex="9">
+    <profileType name="Special Rules" id="f593-22ac-8878-8d77" hidden="false" sortIndex="15">
       <characteristicTypes>
         <characteristicType name="Special Rules" id="daea-c58a-dc2c-ad5d"/>
       </characteristicTypes>
@@ -276,7 +276,7 @@
       </characteristicTypes>
       <comment>weapons 2-6</comment>
     </profileType>
-    <profileType name="Type" id="18f4-5886-b9e5-059c" hidden="false" sortIndex="11">
+    <profileType name="Type" id="18f4-5886-b9e5-059c" hidden="false" sortIndex="10">
       <characteristicTypes>
         <characteristicType name="Range" id="a374-7668-40e6-f109"/>
         <characteristicType name="10-11" id="0ce0-0ff9-2b4f-55e4"/>
@@ -301,7 +301,7 @@
       </characteristicTypes>
       <comment>weapons 8-24</comment>
     </profileType>
-    <profileType name="Type" id="e5cb-a327-9927-e1c2" hidden="false" sortIndex="13">
+    <profileType name="Type" id="e5cb-a327-9927-e1c2" hidden="false" sortIndex="12">
       <characteristicTypes>
         <characteristicType name="Range" id="441f-d21a-ef2b-2c8a"/>
         <characteristicType name="6-7" id="695f-299c-7e58-f275"/>
@@ -311,7 +311,7 @@
       </characteristicTypes>
       <comment>weapons Behemoth 0-7</comment>
     </profileType>
-    <profileType name="Type" id="ee3c-551f-76af-1003" hidden="false" sortIndex="10">
+    <profileType name="Type" id="ee3c-551f-76af-1003" hidden="false" sortIndex="9">
       <characteristicTypes>
         <characteristicType name="Range" id="2701-5c54-f68b-b5db"/>
         <characteristicType name="10-15" id="af3b-7f79-4aa9-20d4"/>
@@ -321,7 +321,7 @@
       </characteristicTypes>
       <comment>weapons Behemoth 0-15</comment>
     </profileType>
-    <profileType name="Type" id="e268-4591-0098-0605" hidden="false" sortIndex="12">
+    <profileType name="Type" id="e268-4591-0098-0605" hidden="false" sortIndex="11">
       <characteristicTypes>
         <characteristicType name="Range" id="5bf6-fd07-7b49-fa88"/>
         <characteristicType name="7-8" id="e53c-163c-99e4-0d11"/>
@@ -331,7 +331,7 @@
       </characteristicTypes>
       <comment>weapons Behemoth 0-8</comment>
     </profileType>
-    <profileType name="Type" id="49bd-938b-4cd1-be02" hidden="false" sortIndex="14">
+    <profileType name="Type" id="49bd-938b-4cd1-be02" hidden="false" sortIndex="13">
       <characteristicTypes>
         <characteristicType name="Range" id="1d41-6aea-8eff-6c42"/>
         <characteristicType name="5-6" id="03c2-7494-d471-434c"/>
@@ -341,7 +341,7 @@
       </characteristicTypes>
       <comment>weapons Behemoth 0-6</comment>
     </profileType>
-    <profileType name="Type" id="b294-e6dd-21de-b304" hidden="false" sortIndex="15">
+    <profileType name="Type" id="b294-e6dd-21de-b304" hidden="false" sortIndex="14">
       <characteristicTypes>
         <characteristicType name="Range" id="1ef4-25e1-dabb-4366"/>
         <characteristicType name="1" id="47f8-07bb-9d00-11ff"/>
